@@ -10,3 +10,4 @@ There are a lot of peopl that have personal websites just to have one, but I hop
 
 * [Github pages](https://pages.github.com/) - Site host
 * [Jekyll](https://jekyllrb.com/docs/github-pages/) - Static site generator
+* [Reverie](https://www.amitmerchant.com/reverie) - Site theme
