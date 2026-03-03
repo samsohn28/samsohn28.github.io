@@ -1,57 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    {% seo title=false %}
-    {% include meta.html %}
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.name }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-    <meta name="theme-color" content="#ffffff">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
-    {% include analytics_head.html %}
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        background: #f5f2eb;
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+        color: #2c2c2c;
+        min-height: 100vh;
+        padding: 48px;
+      }
+      a {
+        color: #6b6b6b;
+        text-decoration: none;
+        transition: color 0.15s ease;
+      }
+      a:hover {
+        color: #2c2c2c;
+      }
+      @media (max-width: 480px) {
+        body { padding: 32px 24px; }
+      }
+    </style>
   </head>
-
   <body>
-    <div class="site-wrapper">
-      <header class="site-header">
-        <div class="container">
-          <a href="{{ site.baseurl }}/" class="site-title">{{ site.name }}</a>
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/archive">Archive</a>
-          </nav>
-        </div>
-      </header>
-
-      <main class="site-main">
-        <div class="container">
-          {{ content }}
-        </div>
-      </main>
-
-      <footer class="site-footer">
-        <div class="container">
-          <div class="footer-content">
-            <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
-            <span class="footer-links">
-              {% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}">Email</a>{% endif %}
-              {% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}">GitHub</a>{% endif %}
-              {% if site.footer-links.linkedin %}<a href="https://linkedin.com/in/{{ site.footer-links.linkedin }}">LinkedIn</a>{% endif %}
-              {% if site.footer-links.twitter %}<a href="https://twitter.com/{{ site.footer-links.twitter }}">Twitter</a>{% endif %}
-            </span>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    {% include analytics.html %}
+    {{ content }}
   </body>
 </html>

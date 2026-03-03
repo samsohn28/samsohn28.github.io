@@ -2,28 +2,5 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post-preview">
-      <a href="{{ site.baseurl }}{{ post.url }}" class="post-link">
-        <h2 class="post-title">{{ post.title }}</h2>
-        <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %e, %Y" }}</time>
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-      </a>
-    </article>
-  {% endfor %}
-
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-link">&larr; Newer</a>
-    {% endif %}
-
-    <span class="pagination-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-link">Older &rarr;</a>
-    {% endif %}
-  </nav>
-  {% endif %}
-</div>
+<h1 style="font-size: 24px; font-weight: 500; margin-bottom: 12px;">Samuel Sohn</h1>
+<a href="https://github.com/samsohn28" style="font-size: 15px;">GitHub</a>
