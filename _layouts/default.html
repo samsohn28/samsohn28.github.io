@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     {% seo title=false %}
     {% include meta.html %}
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#ffffff">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
   </head>
 
   <body>
-    <div id="bar"></div>
-    <div class="wrapper-container">
-      <div class="wrapper-masthead">
+    <div class="site-wrapper">
+      <header class="site-header">
         <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
-
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
-            </div>
-
-            <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/archive">Archive</a>
-            </nav>
-          </header>
+          <a href="{{ site.baseurl }}/" class="site-title">{{ site.name }}</a>
+          <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/archive">Archive</a>
+          </nav>
         </div>
-      </div>
+      </header>
 
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
+      <main class="site-main">
+        <div class="container">
           {{ content }}
         </div>
-      </div>
+      </main>
 
-      <div class="wrapper-footer">
+      <footer class="site-footer">
         <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
+          <div class="footer-content">
+            <span>&copy; {{ site.time | date: '%Y' }} {{ site.author }}</span>
+            <span class="footer-links">
+              {% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}">Email</a>{% endif %}
+              {% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}">GitHub</a>{% endif %}
+              {% if site.footer-links.linkedin %}<a href="https://linkedin.com/in/{{ site.footer-links.linkedin }}">LinkedIn</a>{% endif %}
+              {% if site.footer-links.twitter %}<a href="https://twitter.com/{{ site.footer-links.twitter }}">Twitter</a>{% endif %}
+            </span>
+          </div>
         </div>
-      </div>
+      </footer>
     </div>
 
     {% include analytics.html %}
