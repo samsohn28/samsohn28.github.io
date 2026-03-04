@@ -12,7 +12,7 @@ Yesterday's post was the backstory of how I got into football, how FPL became a 
 
 The goal is to build a competitive FPL tool. It is a machine learning model designed to compete with the best managers in the game. At its core is a deep neural network trained on a wide range of data: player form, fixture difficulty, home/away splits, and underlying stats like xG and xA. But it won't just rely on the FPL API. The model will also pull in weather data, scan press conference quotes for team news, and monitor bookmaker odds for extra signals. Instead of just looking at last week's points, the system combines everything from a manager’s Friday presser to a rain forecast in Manchester to give better recommendations for transfers and captaincy. Eventually, it shouldn't need manual tuning. After each gameweek, it will check its predictions against the actual results, find the errors, and automatically update its feature weights. This creates a self-repairing system that gets more accurate as the season goes on.
 
-Before any of that, I built a simple heuristic bot as a starting point. It pulls live data from the FPL API and scores each player using a weighted formula across a few key metrics. These include recent form, fixture difficulty, points per game, and availability. It then outputs a recommended squad and captain pick. There is no ML or external signals involved, just deterministic rules. The goal wasn't to win the overall rank. Instead, it was to get the data pipeline working, understand the shape of the problem, and have a functional baseline to benchmark everything that comes next.
+Before any of that, I built a simple heuristic bot as a starting point. It pulls live data from the FPL API and scores each player using a weighted formula across a few key metrics. These include recent form, points per game, and availability. It then outputs a recommended squad and captain pick. There is no ML or external signals involved, just deterministic rules. The goal wasn't to win the overall rank. Instead, it was to get the data pipeline working, understand the shape of the problem, and have a functional baseline to benchmark everything that comes next.
 
 The pipeline has three stages: Ingestion, Heuristic, and Optimization.
 
@@ -94,7 +94,7 @@ And the full squad is written to `data/processed/` as a JSON file for downstream
 }
 ```
 
-£99.8m spent, 67.8 projected points for the XI including the captain bonus. Not bad for a first squad.
+Seeing Melker Ellborg as captain makes me feel like a first-time player again. Apparently, it’s not all about form and PPG. Still, with £99.8m spent and 67.8 projected points for the XI, it is a solid start for a first squad.
 
 Some key takeaways from today. First, if you're like me, starting is the hardest part. This is your sign to just do the thing. Second, Claude Code is really good. If you haven't tried it yet, you should. Last thing, sometimes the daily grind can make you forget what's important. As Roy Kent said, "You did all this because it was fun. So fuck your feelings, fuck your overthinking, fuck all the bullshit. Go back out there and have some fucking fun."
 
