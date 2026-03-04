@@ -8,15 +8,15 @@ layout: post
 
 *Related to: [gaffer\_ai](https://github.com/samsohn28/gaffer_ai)*
 
-Yesterday's post was mostly about me — how I got into football, how FPL became a habit, and why I'm building this. Consider it the backstory. From here on out, the focus shifts to the tool itself: what it does, how it's built, and what I'm learning along the way.
+Yesterday's post was the backstory of how I got into football, how FPL became a habit, and why I'm building this. Today, the focus shifts to the tool itself: what it does, how it's built, and what I'm learning along the way.
 
-The vision is a competitive FPL tool — a machine learning model capable of going toe-to-toe with the best managers in the game. At its core will be a deep neural network trained on a rich set of features: player form, fixture difficulty, home and away splits, underlying stats like xG and xA, injury history, rotation risk, price trends, and more. But it won't stop at what the FPL API serves up. The model will also pull in weather data to account for conditions on matchday, scan press conference quotes for hints about team selection and fitness, monitor bookmaker odds and prediction markets for crowd-sourced signals, and track social media trends to catch breaking news before it moves the market. The goal is a model that doesn't just regurgitate last week's points but synthesizes everything, from a manager's post-training presser to a rain forecast in Manchester, to surface the sharpest possible recommendations for transfers, captaincy, and squad structure week after week. And eventually, it shouldn't need me to tune it: after each gameweek it will evaluate its own predictions against the actual results, identify where it went wrong, and automatically recalibrate its feature weights: a self-repairing system that gets sharper as the season progresses.
+The goal is to build a competitive FPL tool. It is a machine learning model designed to compete with the best managers in the game. At its core is a deep neural network trained on a wide range of data: player form, fixture difficulty, home/away splits, and underlying stats like xG and xA. But it won't just rely on the FPL API. The model will also pull in weather data, scan press conference quotes for team news, and monitor bookmaker odds for extra signals. Instead of just looking at last week's points, the system combines everything from a manager’s Friday presser to a rain forecast in Manchester to give better recommendations for transfers and captaincy. Eventually, it shouldn't need manual tuning. After each gameweek, it will check its predictions against the actual results, find the errors, and automatically update its feature weights. This creates a self-repairing system that gets more accurate as the season goes on.
 
-But, first things first. Before any of that, I built a simple heuristic bot as a starting point. It pulls live data from the FPL API, scores each player using a weighted formula across a handful of key metrics — recent form, fixture difficulty, points per game, and availability — and outputs a recommended squad and captain pick. No ML, no external signals, just deterministic rules. The point wasn't to win the overall. It was to get the data pipeline working, understand the shape of the problem, and have a functional baseline to benchmark everything that comes next.
+Before any of that, I built a simple heuristic bot as a starting point. It pulls live data from the FPL API and scores each player using a weighted formula across a few key metrics. These include recent form, fixture difficulty, points per game, and availability. It then outputs a recommended squad and captain pick. There is no ML or external signals involved, just deterministic rules. The goal wasn't to win the overall rank. Instead, it was to get the data pipeline working, understand the shape of the problem, and have a functional baseline to benchmark everything that comes next.
 
 The pipeline has three stages: Ingestion, Heuristic, and Optimization.
 
-**Ingestion** fetches and normalizes data from the [FPL API](https://fantasy.premierleague.com/api/bootstrap-static/) — player stats, fixture lists, team information — and stores it for downstream use. This is the foundation everything else depends on. Each player comes back as a JSON object; here's a trimmed example for Arsenal's David Raya:
+**Ingestion** fetches and normalizes data from the [FPL API](https://fantasy.premierleague.com/api/bootstrap-static/) and stores it for downstream use. Each player comes back as a JSON object, here's a trimmed example for David Raya:
 
 ```json
 {
@@ -35,7 +35,7 @@ The pipeline has three stages: Ingestion, Heuristic, and Optimization.
 
 `element_type` maps to position (1 = GK), `now_cost` is in tenths of a million (60 = £6.0m), and `form` is a rolling 4-gameweek average. These are the raw ingredients the heuristic layer works with.
 
-**Heuristic** applies a weighted scoring formula to rank players by position across key metrics: recent form and points per game, adjusted for availability. The output is a ranked list of candidates at each position within budget. The formula is:
+**Heuristic** applies a weighted scoring formula to rank players by position across key metrics. The output is a ranked list of candidates at each position within budget. The formula is:
 
 <div>
 $$\text{weighted score} = (0.6 \times \text{points per game}) + (0.4 \times \text{form})$$
@@ -45,7 +45,7 @@ $$\text{expected points} = \text{weighted score} \times \text{availability}$$
 
 Points per game is the season-long average; form is FPL's own 4-gameweek rolling average. Availability converts a player's injury probability (0–100 or null) to a 0–1 multiplier, so a player listed as 75% fit takes a proportional hit to their expected output.
 
-**Optimization** takes those scores and finds the highest-value squad that satisfies all of FPL's constraints. At its core this is a variant of the classic knapsack problem: given a set of items (players) each with a value (expected points) and a weight (cost), find the combination that maximizes total value without exceeding a weight limit (£100m). The twist is that FPL adds multiple constraints on top of the budget: exactly 2 GKPs, 5 DEFs, 5 MIDs, and 3 FWDs, plus no more than 3 players from any single club. A greedy approach won't cut it — too many competing constraints. Instead the optimizer uses [PuLP](https://coin-or.github.io/pulp/), a linear programming library, to model every player as a binary decision variable (selected or not) and let a solver find the mathematically optimal 15. A second pass then picks the best starting XI from that squad, applying FPL's formation rules, and assigns the captaincy to the highest-scoring starter. Each stage is modular, which will make it straightforward to swap in the ML model later without rebuilding everything from scratch.
+**Optimization** takes those scores and finds the highest-value squad that satisfies all of FPL's constraints. At its core this is a variant of the classic [knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem): given a set of items (players) each with a value (expected points) and a weight (cost), find the combination that maximizes total value without exceeding a weight limit (£100m). The twist is that FPL adds multiple constraints on top of the budget: exactly 2 GKPs, 5 DEFs, 5 MIDs, and 3 FWDs, plus no more than 3 players from any single club. Since there are too many competing constraints, we can't use a greedy approach. Instead the optimizer uses [PuLP](https://coin-or.github.io/pulp/), a linear programming library, to model every player as a binary decision variable (selected or not) and let a solver find the mathematically optimal 15. A second pass then picks the best starting XI from that squad, applying FPL's formation rules, and assigns the captaincy to the highest-scoring starter. Each stage is modular, which will make it straightforward to swap in the ML model later without rebuilding everything from scratch.
 
 Here's what the output looks like when you run it:
 
@@ -94,8 +94,8 @@ And the full squad is written to `data/processed/` as a JSON file for downstream
 }
 ```
 
-Not a bad first squad — £99.8m spent, 67.8 projected points for the XI including the captain bonus.
+£99.8m spent, 67.8 projected points for the XI including the captain bonus. Not bad for a first squad.
 
-Two things I learned building this. First, Claude Code is really, really good. I went from nothing to a working pipeline in about an hour. It's not just autocomplete — it understands the problem, suggests the right abstractions, and catches mistakes before they compound. If you haven't tried it, you should. Second, and more sobering: if getting a simple rule-based bot off the ground still required this much thought about data shapes, constraint modeling, and pipeline design, then building a proper ML model is going to be a lot harder than I originally imagined. The heuristic bot is a foundation, but it's also a reality check. The gap between this and what I actually want to build is wide. Good thing I'm not doing it alone.
+Some key takeaways from today. First, if you're like me, starting is the hardest part. This is your sign to just do the thing. Second, Claude Code is really good. If you haven't tried it yet, you should. Last thing, sometimes the daily grind can make you forget what's important. As Roy Kent said, "You did all this because it was fun. So fuck your feelings, fuck your overthinking, fuck all the bullshit. Go back out there and have some fucking fun."
 
 
