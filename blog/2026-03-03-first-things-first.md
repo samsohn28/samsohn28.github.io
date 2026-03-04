@@ -35,9 +35,11 @@ The pipeline has three stages: Ingestion, Heuristic, and Optimization.
 
 **Heuristic** applies a weighted scoring formula to rank players by position across key metrics: recent form and points per game, adjusted for availability. The output is a ranked list of candidates at each position within budget. The formula is:
 
+<div>
 $$\text{weighted score} = (0.6 \times \text{points per game}) + (0.4 \times \text{form})$$
 
 $$\text{expected points} = \text{weighted score} \times \text{availability}$$
+</div>
 
 Points per game is the season-long average; form is FPL's own 4-gameweek rolling average. Availability converts a player's injury probability (0–100 or null) to a 0–1 multiplier, so a player listed as 75% fit takes a proportional hit to their expected output.
 
