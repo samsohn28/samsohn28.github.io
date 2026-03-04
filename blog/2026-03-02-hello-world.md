@@ -6,6 +6,8 @@ layout: post
 
 *March 2, 2026*
 
+*Related to: [gaffer\_ai](https://github.com/samsohn28/gaffer_ai)*
+
 I became an Arsenal fan the way most people become fans of anything — I didn't choose it so much as it chose me. I was a teenager when I visited my older brother in London for the first time. I don't remember everything about that trip, but I came home a Gunner and I've never looked back.
 
 Of course in America, football means something else entirely — Sundays belong to a different sport, and the PL exists somewhere on the margins. So when I found a handful who actually watched real football, it felt like discovering a secret society. We started an FPL league together — the kind where bragging rights matter more than any prize. It was casual at first, something to talk about on Monday mornings. But anyone who plays FPL knows it doesn't stay casual for long. You start checking your lineup at midnight before a gameweek deadline. You agonize over a transfer for three days and then watch the player you dropped score a hat-trick. It gets under your skin.

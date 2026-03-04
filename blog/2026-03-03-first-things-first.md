@@ -6,6 +6,8 @@ layout: post
 
 *March 3, 2026*
 
+*Related to: [gaffer\_ai](https://github.com/samsohn28/gaffer_ai)*
+
 Yesterday's post was mostly about me — how I got into football, how FPL became a habit, and why I'm building this. Consider it the backstory. From here on out, the focus shifts to the tool itself: what it does, how it's built, and what I'm learning along the way.
 
 The vision is a competitive FPL tool — a machine learning model capable of going toe-to-toe with the best managers in the game. At its core will be a deep neural network trained on a rich set of features: player form, fixture difficulty, home and away splits, underlying stats like xG and xA, injury history, rotation risk, price trends, and more. But it won't stop at what the FPL API serves up. The model will also pull in weather data to account for conditions on matchday, scan press conference quotes for hints about team selection and fitness, monitor bookmaker odds and prediction markets for crowd-sourced signals, and track social media trends to catch breaking news before it moves the market. The goal is a model that doesn't just regurgitate last week's points but synthesizes everything — from a manager's post-training presser to a rain forecast in Manchester — to surface the sharpest possible recommendations for transfers, captaincy, and squad structure week after week. And eventually, it shouldn't need me to tune it: after each gameweek it will evaluate its own predictions against the actual results, identify where it went wrong, and automatically recalibrate its feature weights — a self-repairing system that gets sharper as the season progresses.
