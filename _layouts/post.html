@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<style>
+  .post {
+    max-width: 680px;
+    margin-top: 48px;
+  }
+  .post-back {
+    display: inline-block;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 40px;
+  }
+  .post-back:hover {
+    color: #2c2c2c;
+  }
+  .post h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .post em:first-of-type {
+    display: block;
+    color: #6b6b6b;
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 36px;
+  }
+  .post p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 20px;
+  }
+  .post h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 36px 0 12px;
+  }
+  .post h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 28px 0 8px;
+  }
+  .post ul, .post ol {
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0 0 20px 24px;
+  }
+  .post li {
+    margin-bottom: 6px;
+  }
+  .post strong {
+    font-weight: 600;
+  }
+  .post code {
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Monaco, 'Courier New', monospace;
+    font-size: 13px;
+    background: #f0ede8;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  .post pre {
+    background: #f0ede8;
+    padding: 20px;
+    border-radius: 6px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .post pre code {
+    background: none;
+    padding: 0;
+    font-size: 13px;
+  }
+  .post a {
+    color: #6b6b6b;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .post a:hover {
+    color: #2c2c2c;
+  }
+</style>
+
+<script>
+  MathJax = {
+    tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+<div class="post">
+  <a class="post-back" href="/blog">← Blog</a>
+  {{ content }}
+</div>
