@@ -61,7 +61,7 @@ Remember the sweets in a jar? This is where that actually happens.
 
 The model doesn’t start from scratch. It opens with a base guess, usually just the average points of every player in the training set. Something like: "I’ll say 2 points for everyone." Wildly wrong, obviously, but it’s a starting point.
 
-From there, it asks a simple question: "What did I miss?" It builds a small decision tree to predict its own mistakes. Something like: if a player played more than 60 minutes against a weak side, I was probably too low. It adds that correction to its base guess, then immediately looks at the new gap. Then it builds another tree to fix *that*. Then another. Then another.
+From there, it asks a simple question: "What did I miss?" It builds a small decision tree to predict its own mistakes. Something like: if a player played more than 60 minutes against a weak side, I was probably too low. It adds that correction to its base guess, then immediately looks at the new gap. Then it builds another tree to fix that. Then another. Then another.
 
 Each tree is deliberately shallow and deliberately humble — scaled down by a learning rate so no single rule gets to throw its weight around. The idea is patience. Small steps, stacked up, compounded over hundreds of rounds. By tree 500, the model has assembled something genuinely complex out of individually simple pieces: a map of subtle interactions that no one wrote down, that no one designed, that just emerged from enough reps. The kind of thing where it quietly learned that away games against elite defences are where mid-table attackers go to die.
 
