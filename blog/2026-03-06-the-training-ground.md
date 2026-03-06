@@ -10,9 +10,7 @@ layout: post
 
 Welcome to pre-season training! With only 8 fixtures left on Arsenal's Premier League calendar, I'm using the final stretch of this title run to do two things: watch the gunners lift the trophy, and get our baby robot gaffer match-fit in the process. As I covered in my [last post](/blog/2026-03-03-first-things-first), the brains of this operation is a machine learning model — and if that means nothing to you, don't worry. Here's Claude's ELI5:
 
-```
-Imagine you're trying to get good at guessing how many sweets are in a jar. You don't know the formula, but every time you guess, someone tells you if you were too high or too low. After enough guesses, you start to notice things — bigger jars mean more sweets, rounder sweets pack tighter — and your guesses get better. Training a model is the same idea. You show it thousands of past gameweeks and say: "here's what this player looked like before the match, and here's how many points they scored." It guesses, checks how wrong it was, and nudges itself in the right direction. Do that enough times and it starts to pick up on what actually matters — form, opponent strength, position — without anyone telling it the rules. Then you point it at next weekend's fixtures and let it have a go.
-```
+> Imagine you're trying to get good at guessing how many sweets are in a jar. You don't know the formula, but every time you guess, someone tells you if you were too high or too low. After enough guesses, you start to notice things — bigger jars mean more sweets, rounder sweets pack tighter — and your guesses get better. Training a model is the same idea. You show it thousands of past gameweeks and say: "here's what this player looked like before the match, and here's how many points they scored." It guesses, checks how wrong it was, and nudges itself in the right direction. Do that enough times and it starts to pick up on what actually matters — form, opponent strength, position — without anyone telling it the rules. Then you point it at next weekend's fixtures and let it have a go.
 
 Originally I wanted my machine learning model to be a deep neural network, but it turns out that was only aspirational. What I actually built was an XGBoost regressor. These gradient-boosted trees are what you reach for when you only have a few thousand rows of mixed data. The good news is that XGBoost is a legitimate choice here, not a compromise. The bad news is that some of the things I was most excited about (injury signals, ownership data, bookmaker odds, etc) are completely inert in this first version. More on that later.
 
@@ -50,6 +48,8 @@ So, after dropping our leakage columns (`xG_match`, `xA_match`, `goals_match`, e
 | `defensive_contribution_per90`, etc. | Null for historical rows |
 | `clean_sheet_prob`, `goalscorer_prob` | Null for historical rows (odds pipeline broken) |
 
+<br>
+
 The honest version of that table: 14 features have real values in training data, and 12 are null for every historical row. Those 12 null features are exactly the signals I was most excited about: `selected_pct` and `price_rise_probability` for ownership, `clean_sheet_prob` and `goalscorer_prob` for bookmaker odds, `chance_of_playing` and `injury_confidence` for injury signals. The issue is that they're difficult to find historical data for (at least for free). They exist in the schema, they show up in next-GW prediction rows, but they've never seen a training example. The model has no idea how to use them yet.
 
 The time split is worth calling out too. Rather than a random 70/15/15, the data is sorted chronologically by gameweek and split in order: the first 70% of gameweeks form the training set, the next 15% validation, the last 15% test. This matters because FPL data has a temporal structure. A random split would let early-season rows bleed into the test set, making the model look better than it is. The time-series split is more honest.
@@ -59,9 +59,9 @@ The time split is worth calling out too. Rather than a random 70/15/15, the data
 
 Remember the sweets in a jar? This is where that actually happens.
 
-The model doesn’t start from scratch. It opens with a base guess, usually just the average points of every player in the training set. Something like: *"I’ll say 2 points for everyone."* Wildly wrong, obviously, but it’s a starting point.
+The model doesn’t start from scratch. It opens with a base guess, usually just the average points of every player in the training set. Something like: "I’ll say 2 points for everyone." Wildly wrong, obviously, but it’s a starting point.
 
-From there, it asks a simple question: *"What did I miss?"* It builds a small decision tree to predict its own mistakes. Something like: if a player played more than 60 minutes against a weak side, I was probably too low. It adds that correction to its base guess, then immediately looks at the new gap. Then it builds another tree to fix *that*. Then another. Then another.
+From there, it asks a simple question: "What did I miss?" It builds a small decision tree to predict its own mistakes. Something like: if a player played more than 60 minutes against a weak side, I was probably too low. It adds that correction to its base guess, then immediately looks at the new gap. Then it builds another tree to fix *that*. Then another. Then another.
 
 Each tree is deliberately shallow and deliberately humble — scaled down by a learning rate so no single rule gets to throw its weight around. The idea is patience. Small steps, stacked up, compounded over hundreds of rounds. By tree 500, the model has assembled something genuinely complex out of individually simple pieces: a map of subtle interactions that no one wrote down, that no one designed, that just emerged from enough reps. The kind of thing where it quietly learned that away games against elite defences are where mid-table attackers go to die.
 
@@ -84,6 +84,8 @@ During training, models will adjust how much weight they put into a feature to g
 | 8 | `position_MID` | 44.8 |
 | 9 | `elo_for` | 43.3 |
 | 10 | `position_GKP` | 39.5 |
+
+<br>
 
 **ICT index is #1.** `form` and `ppg` come in at 2 and 3. Turns out the folks at FPL know what they're doing. ICT index is our strongest single signal, which makes sense: recent attacking involvement helps predict future points.
 
