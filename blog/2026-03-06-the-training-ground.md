@@ -68,9 +68,9 @@ Each tree is deliberately shallow and deliberately humble — scaled down by a l
 
 ## Results
 
-After all that learning, we get out a couple final numbers in the form of an MAE (mean absolute error). The model lands at **Val MAE: 1.634** and **Test MAE: 1.579** which means that at the end of its training, our model is, on average, about one and a half points away from the real life results. So, how did it get there?
+There are two main things we're looking for: feature weights and the MAE (mean absolute error). During training, models adjust how much weight they put into each feature to guide their predictions. The MAE then tells us how far off those predictions were.
 
-During training, models will adjust how much weight they put into a feature to guide their predictions. Here's where our model puts its weight:
+Here's where our model puts its weight:
 
 | Rank | Feature | Gain |
 |---|---|---|
@@ -94,6 +94,18 @@ During training, models will adjust how much weight they put into a feature to g
 **`is_home` and `is_set_piece_taker` register strongly.** Home advantage and set piece responsibility are well-established FPL factors, so seeing them surface is a sign the model is healthy.
 
 **Elo ratings matter, but cost doesn't.** `elo_against` and `elo_for` both sit in the top 10, so opponent and team strength remain reliable signals. Surprisingly, `cost` does not appear on the table. This suggests that once you account for form, position, and fixture context, price isn't adding much on top.
+
+So those are the levers it's pulling. But how well does it actually perform? The model lands at **Val MAE: 1.625** and **Test MAE: 1.559** — on average, about one and a half points off the real result. Here's how that compares to two simple baselines:
+
+| Predictor | Val MAE | Test MAE |
+|---|---|---|
+| Predict global mean (1.87 pts) | 1.934 | 1.902 |
+| Predict per-player historical mean | 1.677 | 1.702 |
+| XGBoost model | 1.625 | 1.559 |
+
+<br>
+
+Good news and bad news. The good news is, it beat both baselines. The bad news is it only barely beat them — particularly the per-player mean, which requires zero ML. The root cause is the points distribution: 80% of rows score 0–2 pts, only 10% score 6+. Any model learns to predict low for everyone, which gives decent MAE but is useless for FPL where you only care about identifying the 10% who have a big week. The fix? Better features.
 
 So, I just spent the last 3 evenings building my robot to tell me exactly what the pub down the street has known forever. Great.
 
