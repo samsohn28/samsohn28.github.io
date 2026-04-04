@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<style>
+  .fpl {
+    max-width: 760px;
+    margin-top: 48px;
+  }
+  .fpl-back {
+    display: inline-block;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 40px;
+  }
+  .fpl-back:hover {
+    color: #2c2c2c;
+  }
+  .fpl h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .fpl-meta {
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .fpl h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e8e4de;
+  }
+  .fpl h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #6b6b6b;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 28px 0 10px;
+  }
+  .fpl p {
+    font-size: 15px;
+    line-height: 1.75;
+    margin-bottom: 16px;
+    color: #2c2c2c;
+  }
+  .fpl ul, .fpl ol {
+    font-size: 15px;
+    line-height: 1.75;
+    margin: 0 0 16px 22px;
+  }
+  .fpl li {
+    margin-bottom: 5px;
+  }
+  .fpl strong {
+    font-weight: 600;
+  }
+
+  /* Squad table */
+  .fpl table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .fpl th {
+    background: #f0ede8;
+    font-weight: 600;
+    text-align: left;
+    padding: 9px 12px;
+    border-bottom: 2px solid #d4d0cb;
+    white-space: nowrap;
+  }
+  .fpl td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e8e4de;
+    vertical-align: middle;
+  }
+  .fpl tr:last-child td {
+    border-bottom: none;
+  }
+  .fpl tr:hover td {
+    background: #f7f5f2;
+  }
+
+  /* Transfer arrows */
+  .fpl-out {
+    display: inline-block;
+    background: #fde8e8;
+    color: #b03030;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .fpl-in {
+    display: inline-block;
+    background: #e6f4ea;
+    color: #2a7a3b;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .fpl-arrow {
+    color: #6b6b6b;
+    margin: 0 6px;
+  }
+
+  /* Summary card */
+  .fpl-summary {
+    background: #f0ede8;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.75;
+  }
+  .fpl-summary p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    .fpl table { font-size: 13px; }
+    .fpl th, .fpl td { padding: 7px 8px; }
+  }
+</style>
+
+<div class="fpl">
+  <a class="fpl-back" href="/fpl">← FPL</a>
+  {% if page.date %}
+    <p class="fpl-meta">Gameweek {{ page.gameweek }}{% if page.date %} &middot; {{ page.date | date: "%B %-d, %Y" }}{% endif %}</p>
+  {% endif %}
+  {{ content }}
+</div>
