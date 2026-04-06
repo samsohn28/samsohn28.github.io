@@ -8,7 +8,7 @@ layout: post
 
 *Related to: [gaffer\_ai](https://github.com/samsohn28/gaffer_ai)*
 
-Welcome to pre-season training! With only 8 fixtures left on Arsenal's Premier League calendar, I'm using the final stretch of this title run to do two things: watch the gunners lift the trophy, and get our baby robot gaffer match-fit in the process. As I covered in my [last post](/blog/2026-03-03-first-things-first), the brains of this operation is a machine learning model — and if that means nothing to you, don't worry. Here's Claude's ELI5:
+Welcome to pre-season training! With only 8 fixtures left on Arsenal's Premier League calendar, I'm using the final stretch of this title run to do two things: watch the gunners lift the trophy, and get our baby robot gaffer match-fit in the process. As I covered in my [last post](/posts/2026-03-03-first-things-first), the brains of this operation is a machine learning model — and if that means nothing to you, don't worry. Here's Claude's ELI5:
 
 > Imagine you're trying to get good at guessing how many sweets are in a jar. You don't know the formula, but every time you guess, someone tells you if you were too high or too low. After enough guesses, you start to notice things — bigger jars mean more sweets, rounder sweets pack tighter — and your guesses get better. Training a model is the same idea. You show it thousands of past gameweeks and say: "here's what this player looked like before the match, and here's how many points they scored." It guesses, checks how wrong it was, and nudges itself in the right direction. Do that enough times and it starts to pick up on what actually matters — form, opponent strength, position — without anyone telling it the rules. Then you point it at next weekend's fixtures and let it have a go.
 
