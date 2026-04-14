@@ -178,7 +178,7 @@ title: FPL
 
 {% if latest %}
 <div class="fpl" style="margin-top: 40px;">
-  {{ latest.content }}
+  {{ latest.content | markdownify }}
 </div>
 {% endif %}
 
