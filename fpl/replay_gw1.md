@@ -7,7 +7,7 @@ date: 2026-04-14
 
 # GW1 Replay
 
-<div class="fpl-summary">
+<div class="fpl-summary" markdown="1">
 
 **Points**: 73 &nbsp;·&nbsp; **FPL avg**: 54 &nbsp;·&nbsp; **vs avg**: +19 &nbsp;·&nbsp; **Cumulative**: +19 &nbsp;·&nbsp; **Predicted**: 53.6 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.5m &nbsp;·&nbsp; **FT**: 1
 
