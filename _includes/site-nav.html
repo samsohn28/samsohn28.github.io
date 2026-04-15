@@ -1,0 +1,15 @@
+{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" | sort: "gameweek" | reverse %}
+{% assign latest_fpl = fpl_pages | first %}
+
+<h1 style="font-size: 84px; font-weight: 700; font-family: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, Monaco, 'Courier New', monospace; letter-spacing: -0.03em; margin-bottom: 14px;">Samuel Sohn</h1>
+<a href="https://github.com/samsohn28" style="font-size: 15px;">GitHub</a>
+<span style="color: #6b6b6b; font-size: 15px; margin: 0 8px;">·</span>
+<a href="https://www.linkedin.com/in/samsohn28/" style="font-size: 15px;">LinkedIn</a>
+<span style="color: #6b6b6b; font-size: 15px; margin: 0 8px;">·</span>
+{% if include.active == "posts" %}
+  <span style="font-size: 15px; color: #2c2c2c; cursor: default;">Posts</span>
+{% else %}
+  <a href="/posts" style="font-size: 15px;">Posts</a>
+{% endif %}
+<span style="color: #6b6b6b; font-size: 15px; margin: 0 8px;">·</span>
+{% if latest_fpl %}<a href="{{ latest_fpl.url }}" style="font-size: 15px;">FPL</a>{% endif %}

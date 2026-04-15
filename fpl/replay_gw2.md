@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 67 &nbsp;·&nbsp; **FPL avg**: 51 &nbsp;·&nbsp; **vs avg**: +16 &nbsp;·&nbsp; **Cumulative**: +35 &nbsp;·&nbsp; **Predicted**: 65.5 xPts &nbsp;·&nbsp; **Chip**: TC &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £0.8m &nbsp;·&nbsp; **FT**: 2
+**Points**: 57 &nbsp;·&nbsp; **FPL avg**: 51 &nbsp;·&nbsp; **vs avg**: +6 &nbsp;·&nbsp; **Cumulative**: +34 &nbsp;·&nbsp; **Predicted**: 80.5 xPts &nbsp;·&nbsp; **Chip**: FH &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £16.0m &nbsp;·&nbsp; **FT**: 1
 
-The model called this gameweek well at the aggregate level, predicting 65.5 points against an actual 67, though the player-level picture was messier — Gakpo (3.9 xPts, 10 actual) and Ekitiké (5.0 xPts, 9 actual) were the real scorers while the TC captain Semenyo returned only 6 base points, making the chip feel wasted on the wrong man. The Johnson transfer looks sharp in hindsight (9 actual vs 6.0 xPts), partially offsetting the Semenyo disappointment, but Haaland blanking at 2 against a 5.1 xPts forecast was the single biggest drag. A +16 beat on the FPL average kept the cumulative edge healthy at +35, but the TC firing on a 6-point captain rather than Gakpo or Ekitiké will sting in the counterfactual.
+The Free Hit chip freed up a full squad rebuild that the model priced at 80.5 xPts, but a string of defensive blanks — Schär, Murillo, and Hume each returning 1 or fewer — dragged actual output down to 57, a 23-point shortfall driven largely by the model's optimism on clean sheet probability. Reijnders was the worst outcome in the wrong place, returning just 2 points from an 8.6 xPts captain slot, while Eze compounded the damage with a zero. João Pedro (15 pts) and Diakité (10 pts) both outperformed their projections and kept the week respectable, landing 6 above the FPL average despite the captain miss.
 
 </div>
 
@@ -19,40 +19,60 @@ The model called this gameweek well at the aggregate level, predicting 65.5 poin
 
 | | Player | Pos | Cost | xPts | Actual |
 |---|---|---|---|---|---|
-| <span class="fpl-in">IN</span> | Semenyo | MID | £7.1m | 8.4 | 6 |
-| <span class="fpl-in">IN</span> | Johnson | MID | £7.0m | 6.0 | 9 |
-| <span class="fpl-out">OUT</span> | Longstaff | MID | £5.0m | — | — |
-| <span class="fpl-out">OUT</span> | Tel | MID | £6.4m | — | — |
+| <span class="fpl-in">IN</span> | Raya | GKP | £5.5m | 4.6 | 6 |
+| <span class="fpl-in">IN</span> | Semenyo | MID | £7.1m | 5.4 | 6 |
+| <span class="fpl-in">IN</span> | Thiago | FWD | £6.0m | 5.3 | 2 |
+| <span class="fpl-in">IN</span> | Dewsbury-Hall | MID | £5.0m | 7.8 | 2 |
+| <span class="fpl-in">IN</span> | João Pedro | FWD | £7.5m | 6.5 | 15 |
+| <span class="fpl-in">IN</span> | Eze | MID | £7.5m | 6.8 | 0 |
+| <span class="fpl-in">IN</span> | Bobb | MID | £5.5m | 6.8 | 2 |
+| <span class="fpl-in">IN</span> | Schär | DEF | £5.5m | 6.2 | 1 |
+| <span class="fpl-in">IN</span> | Murillo | DEF | £5.5m | 5.9 | 1 |
+| <span class="fpl-in">IN</span> | Hume | DEF | £4.5m | 5.2 | 1 |
+| <span class="fpl-in">IN</span> | Agbadou | DEF | £4.5m | 5.3 | 4 |
+| <span class="fpl-in">IN</span> | Diakité | DEF | £4.5m | 5.3 | 10 |
+| <span class="fpl-out">OUT</span> | Banel | MID | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Henderson | GKP | £5.0m | — | — |
+| <span class="fpl-out">OUT</span> | Reed | MID | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Bogle | DEF | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Robertson | DEF | £6.0m | — | — |
+| <span class="fpl-out">OUT</span> | Dalot | DEF | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Hall | DEF | £5.5m | — | — |
+| <span class="fpl-out">OUT</span> | L.Miley | MID | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Ballard | DEF | £4.6m | — | — |
+| <span class="fpl-out">OUT</span> | Kudus | MID | £6.5m | — | — |
+| <span class="fpl-out">OUT</span> | Richarlison | FWD | £6.6m | — | — |
+| <span class="fpl-out">OUT</span> | Gyökeres | FWD | £9.0m | — | — |
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Raya (vc) | GKP | 7.6 | 6 |
-| Cash | DEF | 2.8 | 2 |
-| **Semenyo © (×3)** | MID | 8.4 | 6 |
-| Walker | DEF | 6.6 | 6 |
-| Wirtz | MID | 3.4 | 2 |
-| Gakpo | MID | 3.9 | 10 |
-| Haaland | FWD | 5.1 | 2 |
-| Ballard | DEF | 3.2 | 1 |
-| Johnson | MID | 6.0 | 9 |
-| Bowen | FWD | 5.3 | 2 |
-| Ekitiké | FWD | 5.0 | 9 |
-| **Total** | | **57.1** | **55** |
+| Semenyo | MID | 5.4 | 6 |
+| Kelleher | GKP | 5.7 | 5 |
+| Dewsbury-Hall (vc) | MID | 7.8 | 2 |
+| João Pedro | FWD | 6.5 | 15 |
+| Eze | MID | 6.8 | 0 |
+| Bobb | MID | 6.8 | 2 |
+| **Reijnders © (×2)** | MID | 8.6 | 2 |
+| Schär | DEF | 6.2 | 1 |
+| Murillo | DEF | 5.9 | 1 |
+| Ekitiké | FWD | 7.0 | 9 |
+| Diakité | DEF | 5.3 | 10 |
+| **Total** | | **71.9** | **53** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Sánchez | GKP | 5.6 | 3 |
-| Tonali | MID | 3.1 | 2 |
-| Zinchenko | DEF | 0.8 | 0 |
-| Cirkin | DEF | 0.2 | 0 |
+| Raya | GKP | 4.6 | 6 |
+| Thiago ↑ | FWD | 5.3 | 2 |
+| Agbadou | DEF | 5.3 | 4 |
+| Hume | DEF | 5.2 | 1 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| **2** | **TC** | **65.5** | **67** | **51** | **+16** | **+35** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| **2** | **FH** | **80.5** | **57** | **51** | **+6** | **+34** |
