@@ -9,67 +9,62 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 98 &nbsp;·&nbsp; **FPL avg**: 66 &nbsp;·&nbsp; **vs avg**: +32 &nbsp;·&nbsp; **Cumulative**: +438 &nbsp;·&nbsp; **Predicted**: 73.7 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 1 &nbsp;·&nbsp; **Bank**: £6.8m &nbsp;·&nbsp; **FT**: 1
+**Points**: 82 &nbsp;·&nbsp; **FPL avg**: 66 &nbsp;·&nbsp; **vs avg**: +16 &nbsp;·&nbsp; **Cumulative**: +339 &nbsp;·&nbsp; **Predicted**: 69.4 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.5m &nbsp;·&nbsp; **FT**: 1
 
-The model forecast 73.7 points but the squad delivered 98, driven primarily by Haaland's 16-point haul doubling to 32 via the captaincy armband — the single biggest lever in the gameweek. Both transfers paid off handsomely despite the hit: Rogers returned 15 against an xPts of 7.7 and Stach added 8, more than covering the 4-point penalty. Van Hecke and Foden were the main drags, blanking and returning 3 respectively against combined xPts of 10.7, but strong performances from Rice (11) and Collins (8) absorbed the slack and pushed the score 32 points clear of the FPL average.
+The model underestimated the week significantly, projecting 69.4 points against an actual return of 82, with the gap driven largely by Verbruggen's standout 11-point haul from a clean sheet and save bonus — nearly double his 5.6 xPts. Rice justified the captaincy with 11 points, and Ekitiké continued to outperform his projection with 9 actual against 6.4 expected, while Andersen and Collins provided steady defensive returns above expectation. The main drags were Fernandes (1 vs 4.7 projected) and Foden (3 vs 5.9), though with no transfers and no chip deployed, a 16-point beat on the average week represents a clean, structurally sound gameweek.
 
 </div>
 
 ## Transfers
 
-| | Player | Pos | Cost | xPts | Actual |
-|---|---|---|---|---|---|
-| <span class="fpl-in">IN</span> | Rogers | MID | £7.1m | 7.7 | 15 |
-| <span class="fpl-in">IN</span> | Stach | MID | £4.8m | 5.6 | 8 |
-| <span class="fpl-out">OUT</span> | Dewsbury-Hall | MID | £5.1m | — | — |
-| <span class="fpl-out">OUT</span> | B.Fernandes | MID | £9.3m | — | — |
-
-*1 hit(s) taken (-4 pts)*
+*(No transfers this week.)*
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Rice | MID | 7.5 | 11 |
-| Rogers (vc) | MID | 7.7 | 15 |
-| Collins | DEF | 7.2 | 8 |
-| Van Hecke | DEF | 4.8 | 0 |
-| Pickford | GKP | 4.0 | 2 |
+| Calafiori | DEF | 4.5 | 6 |
+| **Rice © (×2)** | MID | 7.5 | 11 |
+| Truffert | DEF | 5.5 | 5 |
+| Collins (vc) | DEF | 7.2 | 8 |
+| Verbruggen | GKP | 5.6 | 11 |
 | Andersen | DEF | 4.8 | 7 |
-| O'Reilly | DEF | 5.6 | 6 |
 | Foden | MID | 5.9 | 3 |
-| **Haaland © (×2)** | FWD | 7.7 | 16 |
-| Stach | MID | 5.6 | 8 |
+| B.Fernandes | MID | 4.7 | 1 |
+| Anderson | MID | 4.6 | 4 |
+| Ekitiké | FWD | 6.4 | 9 |
 | Mukiele | DEF | 5.1 | 6 |
-| **Total** | | **66.0** | **82** |
+| **Total** | | **61.8** | **71** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Petrović | GKP | 3.9 | 2 |
-| Anderson ↑ | MID | 4.6 | 4 |
-| Mateta | FWD | 4.5 | 2 |
+| Pickford | GKP | 3.5 | 2 |
+| Saka | MID | 4.3 | 3 |
+| Bowen | FWD | 3.8 | 1 |
 | Thiago | FWD | 3.7 | 2 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| **17** | **—** | **73.7** | **98** | **66** | **+32** | **+438** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| **17** | **—** | **69.4** | **82** | **66** | **+16** | **+339** |
+|---|---|---|---|---|---|---|
+| **Total** | | **1132.3** | **1215** | **876** | **+339** | |

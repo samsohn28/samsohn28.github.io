@@ -9,67 +9,72 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 42 &nbsp;·&nbsp; **FPL avg**: 55 &nbsp;·&nbsp; **vs avg**: -13 &nbsp;·&nbsp; **Cumulative**: +670 &nbsp;·&nbsp; **Predicted**: 61.9 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £6.9m &nbsp;·&nbsp; **FT**: 1
+**Points**: 59 &nbsp;·&nbsp; **FPL avg**: 55 &nbsp;·&nbsp; **vs avg**: +4 &nbsp;·&nbsp; **Cumulative**: +579 &nbsp;·&nbsp; **Predicted**: 63.7 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £9.6m &nbsp;·&nbsp; **FT**: 1
 
-A heavy miss week, with actual points 19.9 below xPts as the model's optimism went largely unrewarded. Rice's captaincy was the central failure — projected at 6.4 but returning just 3 points, costing roughly 7 points on the doubled return — while Schade's -2 (vs 5.6 xPts) added further downside. Senesi (8) and Bowen (8) were the standout overperformers but not enough to offset the damage, leaving the squad 13 points below the FPL average and eroding the cumulative edge.
+The model predicted 63.7 xPts against an actual 59, with Rice's captaincy the primary drag — he returned just 3 points against an xPts of 6.4, costing the squad roughly 7 points on the armband alone. The Ballard transfer paid off immediately with a 9-point return on debut, and Mukiele also outperformed his projection with 9, but those gains were offset by Schade's -2 and Thiago and Neto both returning 2 against combined xPts of 9.4. The squad still beat the FPL average by 4, extending the cumulative lead to +579, though Šeško's 6-point haul from the bench was a minor frustration given the blanks in midfield.
 
 </div>
 
 ## Transfers
 
-*(No transfers this week.)*
+| | Player | Pos | Cost | xPts | Actual |
+|---|---|---|---|---|---|
+| <span class="fpl-in">IN</span> | Ballard | DEF | £4.6m | 5.7 | 9 |
+| <span class="fpl-out">OUT</span> | Collins | DEF | £5.0m | — | — |
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
+| Gabriel | DEF | 5.5 | 8 |
 | **Rice © (×2)** | MID | 6.4 | 3 |
-| Rogers | MID | 5.0 | 2 |
-| Senesi | DEF | 4.8 | 8 |
 | Semenyo | MID | 5.5 | 7 |
-| Schade (vc) | MID | 5.6 | -2 |
+| Schade | MID | 5.6 | -2 |
 | Thiago | FWD | 4.5 | 2 |
-| Chalobah | DEF | 4.5 | 3 |
-| Guéhi | DEF | 4.2 | 3 |
-| Garner | MID | 4.5 | 4 |
-| Dúbravka | GKP | 4.8 | 1 |
+| Verbruggen | GKP | 3.9 | 3 |
+| Neto | MID | 4.9 | 2 |
+| Anderson | MID | 4.9 | 7 |
+| Ballard (vc) | DEF | 5.7 | 9 |
 | Bowen | FWD | 5.6 | 8 |
-| **Total** | | **55.5** | **39** |
+| Mukiele | DEF | 4.8 | 9 |
+| **Total** | | **57.3** | **56** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Donnarumma | GKP | 3.2 | 2 |
-| Watkins | FWD | 4.3 | 0 |
-| Tarkowski | DEF | 3.9 | 2 |
-| Collins | DEF | 2.4 | 1 |
+| Pickford | GKP | 3.8 | 2 |
+| Šeško | FWD | 2.9 | 6 |
+| Andersen | DEF | 2.7 | 0 |
+| Thiaw | DEF | 2.4 | 0 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| 17 | — | 73.7 | 98 | 66 | +32 | +438 |
-| 18 | FH | 75.6 | 115 | 44 | +71 | +509 |
-| 19 | — | 63.9 | 86 | 40 | +46 | +555 |
-| 20 | — | 72.0 | 105 | 42 | +63 | +618 |
-| 21 | — | 78.9 | 83 | 48 | +35 | +653 |
-| 22 | — | 61.5 | 54 | 40 | +14 | +667 |
-| 23 | WC | 68.3 | 60 | 44 | +16 | +683 |
-| **24** | **—** | **61.9** | **42** | **55** | **-13** | **+670** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| 17 | — | 69.4 | 82 | 66 | +16 | +339 |
+| 18 | — | 64.4 | 84 | 44 | +40 | +379 |
+| 19 | — | 64.6 | 87 | 40 | +47 | +426 |
+| 20 | — | 77.6 | 122 | 42 | +80 | +506 |
+| 21 | — | 80.1 | 87 | 48 | +39 | +545 |
+| 22 | — | 57.8 | 56 | 40 | +16 | +561 |
+| 23 | — | 64.7 | 58 | 44 | +14 | +575 |
+| **24** | **—** | **63.7** | **59** | **55** | **+4** | **+579** |
+|---|---|---|---|---|---|---|
+| **Total** | | **1605.2** | **1768** | **1189** | **+579** | |

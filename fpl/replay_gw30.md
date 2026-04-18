@@ -9,15 +9,18 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 57 &nbsp;·&nbsp; **FPL avg**: 43 &nbsp;·&nbsp; **vs avg**: +14 &nbsp;·&nbsp; **Cumulative**: +699 &nbsp;·&nbsp; **Predicted**: 55.2 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £7.1m &nbsp;·&nbsp; **FT**: 1
+**Points**: 57 &nbsp;·&nbsp; **FPL avg**: 43 &nbsp;·&nbsp; **vs avg**: +14 &nbsp;·&nbsp; **Cumulative**: +636 &nbsp;·&nbsp; **Predicted**: 55.5 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £6.3m &nbsp;·&nbsp; **FT**: 1
 
-The model's 55.2 prediction landed close to the 57 actual, with the captain call on Szoboszlai (11 pts) doing the heavy lifting — his double effectively accounting for a large share of the surplus over average. The starting XI was a tale of two halves: Gabriel exceeded expectations with 9 points, but Rice, Semenyo, and Enzo all badly undershot their projections, collectively returning just 7 against a combined xPts of 14.0. The sharpest miss was structural rather than predictive — Senesi posted 10 on the bench unused, a haul that would have materially improved the score had the squad ordering shuffled slightly.
+The model called this gameweek almost perfectly, forecasting 55.5 xPts against an actual 57, with Gabriel the standout over-performer at 9 points against a 4.3 projection. The Szoboszlai transfer proved immediately correct — 11 points on debut in the squad — though his vice-captaincy means those points weren't doubled, and the captain pick in Thiago returned a modest 6, close to his 5.6 xPts ceiling. The main sting came from the bench, where B.Fernandes sat out with 10 points while multiple starters including Rice, Semenyo, Anderson, and Alderete all underperformed their projections significantly.
 
 </div>
 
 ## Transfers
 
-*(No transfers this week.)*
+| | Player | Pos | Cost | xPts | Actual |
+|---|---|---|---|---|---|
+| <span class="fpl-in">IN</span> | Szoboszlai | MID | £6.9m | 5.1 | 11 |
+| <span class="fpl-out">OUT</span> | Rogers | MID | £7.5m | — | — |
 
 ## Starting XI
 
@@ -26,56 +29,58 @@ The model's 55.2 prediction landed close to the 57 actual, with the captain call
 | Gabriel | DEF | 4.3 | 9 |
 | Rice | MID | 4.9 | 3 |
 | Semenyo | MID | 4.5 | 2 |
-| Thiago (vc) | FWD | 5.6 | 6 |
-| Enzo | MID | 4.6 | 2 |
-| Guéhi | DEF | 4.2 | 2 |
-| Pickford | GKP | 3.8 | 2 |
+| **Thiago © (×2)** | FWD | 5.6 | 6 |
+| A.Becker | GKP | 3.9 | 4 |
 | Virgil | DEF | 4.1 | 2 |
-| **Szoboszlai © (×2)** | MID | 5.6 | 11 |
+| Szoboszlai (vc) | MID | 5.1 | 11 |
+| Anderson | MID | 4.5 | 2 |
+| Ballard | DEF | 4.0 | 4 |
 | Bowen | FWD | 4.7 | 6 |
-| Mané | FWD | 3.6 | 1 |
-| **Total** | | **49.7** | **46** |
+| Alderete | DEF | 4.5 | 2 |
+| **Total** | | **49.9** | **51** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Donnarumma | GKP | 3.3 | 2 |
-| Senesi | DEF | 3.5 | 10 |
-| Tarkowski | DEF | 3.0 | 0 |
-| Garner | MID | 2.9 | 4 |
+| José Sá | GKP | 2.7 | 0 |
+| B.Fernandes | MID | 3.8 | 10 |
+| Mané | FWD | 3.1 | 1 |
+| J.Timber | DEF | 3.0 | 1 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| 17 | — | 73.7 | 98 | 66 | +32 | +438 |
-| 18 | FH | 75.6 | 115 | 44 | +71 | +509 |
-| 19 | — | 63.9 | 86 | 40 | +46 | +555 |
-| 20 | — | 72.0 | 105 | 42 | +63 | +618 |
-| 21 | — | 78.9 | 83 | 48 | +35 | +653 |
-| 22 | — | 61.5 | 54 | 40 | +14 | +667 |
-| 23 | WC | 68.3 | 60 | 44 | +16 | +683 |
-| 24 | — | 61.9 | 42 | 55 | -13 | +670 |
-| 25 | — | 67.5 | 50 | 58 | -8 | +662 |
-| 26 | — | 98.8 | 71 | 58 | +13 | +675 |
-| 27 | — | 70.3 | 36 | 45 | -9 | +666 |
-| 28 | — | 65.2 | 63 | 53 | +10 | +676 |
-| 29 | — | 70.2 | 63 | 54 | +9 | +685 |
-| **30** | **—** | **55.2** | **57** | **43** | **+14** | **+699** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| 17 | — | 69.4 | 82 | 66 | +16 | +339 |
+| 18 | — | 64.4 | 84 | 44 | +40 | +379 |
+| 19 | — | 64.6 | 87 | 40 | +47 | +426 |
+| 20 | — | 77.6 | 122 | 42 | +80 | +506 |
+| 21 | — | 80.1 | 87 | 48 | +39 | +545 |
+| 22 | — | 57.8 | 56 | 40 | +16 | +561 |
+| 23 | — | 64.7 | 58 | 44 | +14 | +575 |
+| 24 | — | 63.7 | 59 | 55 | +4 | +579 |
+| 25 | — | 63.4 | 47 | 58 | -11 | +568 |
+| 26 | WC | 109.2 | 85 | 58 | +27 | +595 |
+| 27 | — | 73.6 | 50 | 45 | +5 | +600 |
+| 28 | — | 66.2 | 64 | 53 | +11 | +611 |
+| 29 | — | 64.5 | 65 | 54 | +11 | +622 |
+| **30** | **—** | **55.5** | **57** | **43** | **+14** | **+636** |
+|---|---|---|---|---|---|---|
+| **Total** | | **2037.6** | **2136** | **1500** | **+636** | |

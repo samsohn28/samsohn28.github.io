@@ -9,56 +9,61 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 63 &nbsp;·&nbsp; **FPL avg**: 35 &nbsp;·&nbsp; **vs avg**: +28 &nbsp;·&nbsp; **Cumulative**: +304 &nbsp;·&nbsp; **Predicted**: 62.7 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.7m &nbsp;·&nbsp; **FT**: 2
+**Points**: 67 &nbsp;·&nbsp; **FPL avg**: 35 &nbsp;·&nbsp; **vs avg**: +32 &nbsp;·&nbsp; **Cumulative**: +271 &nbsp;·&nbsp; **Predicted**: 64.2 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £7.1m &nbsp;·&nbsp; **FT**: 1
 
-The model called GW13 almost perfectly at the aggregate level — predicted 62.7, returned 63 — but the composition of that score diverged meaningfully from expectations, with captain Thiago outperforming his 8.7 xPts projection by delivering 13 (including the double captain multiplier), and Bruno Fernandes adding an unmodelled 11 from the vice slot. Those two overperformers masked a string of defensive and goalkeeper disappointments — Pickford, Mukiele, and Muñoz combined for just 2 points against an expected 11.6 — while Haaland's 2-point return continued his blank form below projection. No chip was deployed and no transfers were made, leaving the squad unchanged into a week where bench value (Van Hecke's 6) stayed locked out.
+The model called this gameweek well, predicting 64.2 xPts against an actual return of 67, with the small gap driven by Thiago outperforming his 8.7 projection with 13 points — making the Richarlison swap and captaincy decision the standout calls of the week. B.Fernandes added further upside at 11 vs 6.9 xPts, but the gains were partially clipped by Bowen (2 vs 5.5) and Mukiele blanking on a 3.5 projection. A 32-point beat on the FPL average without a chip in play is a strong return, pushing the cumulative edge to +271.
 
 </div>
 
 ## Transfers
 
-*(No transfers this week.)*
+| | Player | Pos | Cost | xPts | Actual |
+|---|---|---|---|---|---|
+| <span class="fpl-in">IN</span> | Thiago | FWD | £6.6m | 8.7 | 13 |
+| <span class="fpl-out">OUT</span> | Richarlison | FWD | £6.4m | — | — |
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
+| Saka | MID | 4.9 | 5 |
 | Rice | MID | 5.3 | 4 |
+| Senesi | DEF | 4.2 | 2 |
 | **Thiago © (×2)** | FWD | 8.7 | 13 |
-| Muñoz | DEF | 4.4 | 1 |
 | Mateta | FWD | 4.9 | 6 |
-| Pickford | GKP | 3.7 | 1 |
+| Pickford | GKP | 3.2 | 1 |
 | Andersen | DEF | 3.6 | 4 |
-| Haaland | FWD | 4.3 | 2 |
 | B.Fernandes (vc) | MID | 6.9 | 11 |
-| Gibbs-White | MID | 3.8 | 2 |
 | Anderson | MID | 4.9 | 6 |
+| Bowen | FWD | 5.5 | 2 |
 | Mukiele | DEF | 3.5 | 0 |
-| **Total** | | **54.1** | **50** |
+| **Total** | | **55.6** | **54** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Petrović | GKP | 3.0 | 2 |
-| Van Hecke | DEF | 3.5 | 6 |
+| Pope | GKP | 3.0 | 0 |
+| Tavernier | MID | 4.8 | 1 |
+| Truffert | DEF | 3.5 | 1 |
 | Calafiori | DEF | 3.0 | 0 |
-| Anthony | MID | 2.9 | 4 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| **13** | **—** | **62.7** | **63** | **35** | **+28** | **+304** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| **13** | **—** | **64.2** | **67** | **35** | **+32** | **+271** |
+|---|---|---|---|---|---|---|
+| **Total** | | **859.2** | **914** | **643** | **+271** | |

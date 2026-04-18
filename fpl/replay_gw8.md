@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 105 &nbsp;·&nbsp; **FPL avg**: 56 &nbsp;·&nbsp; **vs avg**: +49 &nbsp;·&nbsp; **Cumulative**: +185 &nbsp;·&nbsp; **Predicted**: 65.8 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.4m &nbsp;·&nbsp; **FT**: 1
+**Points**: 103 &nbsp;·&nbsp; **FPL avg**: 56 &nbsp;·&nbsp; **vs avg**: +47 &nbsp;·&nbsp; **Cumulative**: +190 &nbsp;·&nbsp; **Predicted**: 66.2 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.4m &nbsp;·&nbsp; **FT**: 1
 
-The model severely underestimated GW8, predicting 65.8 points against an actual return of 105 — a gap driven almost entirely by two defenders nobody saw coming: Mukiele (17 actual vs 5.9 xPts) justified the Tarkowski swap handsomely, while Mateta's 17-point haul against a modest 6.5 xPts projection was the week's biggest positive surprise. Haaland delivered solidly as captain with 13 points on 7.7 xPts, roughly on-model, but the real score came from the low-probability defensive and forward explosions rather than the model's top picks — Rice, Semenyo, and Anthony all underperformed against their projections, suggesting the model priced in risk correctly but got beaten by variance on the upside.
+The model called 66.2 xPts but the week delivered 103, a 36-point overperformance driven by two outlier hauls the model couldn't have foreseen: Mateta and Mukiele both scored 17 points against combined xPts of just 12.4, with the Tarkowski-to-Mukiele transfer proving an immediate hit. Haaland did his job as captain with 13 points on a 7.7 projection, providing a reliable floor, while the bench contributed nothing and underperformers like Pope and Anthony were effectively dead weight. The result — 47 above the FPL average — was largely a function of two defenders going off script rather than model accuracy, but the optimizer's willingness to hold Mateta and pull the trigger on Mukiele was vindicated.
 
 </div>
 
@@ -28,35 +28,37 @@ The model severely underestimated GW8, predicting 65.8 points against an actual 
 |---|---|---|---|
 | Gabriel | DEF | 5.6 | 12 |
 | Calafiori | DEF | 4.2 | 6 |
-| Rice | MID | 4.7 | 3 |
 | Semenyo (vc) | MID | 7.1 | 4 |
-| Thiago | FWD | 4.3 | 8 |
+| Tavernier | MID | 3.9 | 5 |
 | Anthony | MID | 4.2 | 2 |
 | Mateta | FWD | 6.5 | 17 |
-| Pickford | GKP | 3.0 | 2 |
 | **Haaland © (×2)** | FWD | 7.7 | 13 |
 | B.Fernandes | MID | 5.0 | 8 |
+| Pope | GKP | 4.3 | 2 |
+| Anderson | MID | 4.1 | 4 |
 | Mukiele | DEF | 5.9 | 17 |
-| **Total** | | **58.1** | **92** |
+| **Total** | | **58.5** | **90** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Petrović | GKP | 2.7 | 2 |
-| Anderson | MID | 4.1 | 4 |
+| Pickford | GKP | 2.5 | 2 |
 | Senesi | DEF | 3.7 | 2 |
 | Andersen | DEF | 3.4 | 1 |
+| Richarlison | FWD | 2.5 | 1 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| **8** | **—** | **65.8** | **105** | **56** | **+49** | **+185** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| **8** | **—** | **66.2** | **103** | **56** | **+47** | **+190** |
+|---|---|---|---|---|---|---|
+| **Total** | | **541.5** | **610** | **420** | **+190** | |

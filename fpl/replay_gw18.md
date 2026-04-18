@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 115 &nbsp;·&nbsp; **FPL avg**: 44 &nbsp;·&nbsp; **vs avg**: +71 &nbsp;·&nbsp; **Cumulative**: +509 &nbsp;·&nbsp; **Predicted**: 75.6 xPts &nbsp;·&nbsp; **Chip**: FH &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £6.8m &nbsp;·&nbsp; **FT**: 1
+**Points**: 84 &nbsp;·&nbsp; **FPL avg**: 44 &nbsp;·&nbsp; **vs avg**: +40 &nbsp;·&nbsp; **Cumulative**: +379 &nbsp;·&nbsp; **Predicted**: 64.4 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £5.5m &nbsp;·&nbsp; **FT**: 2
 
-The Free Hit chip generated a 115-point haul against a predicted 75.6, with the 39-point upside driven almost entirely by two outliers: Schade delivered 20 points from a 7.2 xPts projection, validating the captain call despite the model offering no strong signal, and Dorgu added 17 from a 5.4 xPts estimate. The rebuilt squad otherwise tracked reasonably close to expectation — nine of the eleven starters fell within a few points of their projections — though Rogers (1 vs 5.3 xPts) was a drag and Hall's 2-point bench return suggests the model's bottom-of-squad picks were priced about right. The +71 vs average margin is the single biggest GW contribution to date, pushing the cumulative edge to +509, and reflects a chip well-timed rather than a model edge: the FH removed deadweight and concentrated value, but Schade's haul was the decisive swing factor.
+The model predicted 64.4 points but the squad returned 84, with the gap almost entirely explained by Schade's 20-point haul — nearly three times his 7.2 xPts — doubled to 40 via the captaincy, turning what looked like a modest week on paper into a +40 vs average result. The B.Fernandes-to-Schade transfer proved the decisive move of the gameweek, netting a free hit on xPts differential that single-handedly justified the switch. Outside the captaincy windfall, the rest of the XI broadly underperformed their projections — Calafiori blanked against a 4.1 xPts model, Foden and Bowen combined for 4 points off an expected 9.1 — though an auto-sub of Thiago (5 pts) partially offset the bench deadweight.
 
 </div>
 
@@ -19,76 +19,56 @@ The Free Hit chip generated a 115-point haul against a predicted 75.6, with the 
 
 | | Player | Pos | Cost | xPts | Actual |
 |---|---|---|---|---|---|
-| <span class="fpl-in">IN</span> | Semenyo | MID | £7.7m | 7.1 | 9 |
 | <span class="fpl-in">IN</span> | Schade | MID | £7.0m | 7.2 | 20 |
-| <span class="fpl-in">IN</span> | João Pedro | FWD | £7.2m | 5.3 | 8 |
-| <span class="fpl-in">IN</span> | Tarkowski | DEF | £5.5m | 6.0 | 8 |
-| <span class="fpl-in">IN</span> | Mykolenko | DEF | £4.9m | 5.4 | 6 |
-| <span class="fpl-in">IN</span> | Wirtz | MID | £8.1m | 6.5 | 10 |
-| <span class="fpl-in">IN</span> | Dorgu | DEF | £4.1m | 5.4 | 17 |
-| <span class="fpl-in">IN</span> | Heaven | DEF | £3.8m | 5.1 | 8 |
-| <span class="fpl-in">IN</span> | Dúbravka | GKP | £4.0m | 5.4 | 11 |
-| <span class="fpl-in">IN</span> | Hall | DEF | £5.2m | 5.0 | 2 |
-| <span class="fpl-in">IN</span> | Ekitiké | FWD | £9.0m | 6.5 | 5 |
-| <span class="fpl-in">IN</span> | Calvert-Lewin | FWD | £5.8m | 6.5 | 8 |
-| <span class="fpl-out">OUT</span> | Petrović | GKP | £4.5m | — | — |
-| <span class="fpl-out">OUT</span> | Collins | DEF | £4.9m | — | — |
-| <span class="fpl-out">OUT</span> | Thiago | FWD | £7.1m | — | — |
-| <span class="fpl-out">OUT</span> | Van Hecke | DEF | £4.6m | — | — |
-| <span class="fpl-out">OUT</span> | Mateta | FWD | £7.7m | — | — |
-| <span class="fpl-out">OUT</span> | Andersen | DEF | £4.6m | — | — |
-| <span class="fpl-out">OUT</span> | O'Reilly | DEF | £5.3m | — | — |
-| <span class="fpl-out">OUT</span> | Foden | MID | £9.0m | — | — |
-| <span class="fpl-out">OUT</span> | Haaland | FWD | £15.1m | — | — |
-| <span class="fpl-out">OUT</span> | Anderson | MID | £5.3m | — | — |
-| <span class="fpl-out">OUT</span> | Stach | MID | £4.8m | — | — |
-| <span class="fpl-out">OUT</span> | Mukiele | DEF | £4.2m | — | — |
+| <span class="fpl-out">OUT</span> | B.Fernandes | MID | £9.2m | — | — |
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
+| Calafiori | DEF | 4.1 | 0 |
+| Saka | MID | 4.6 | 7 |
 | Rice | MID | 6.3 | 5 |
-| Rogers | MID | 5.3 | 1 |
-| Semenyo (vc) | MID | 7.1 | 9 |
+| Collins | DEF | 4.6 | 4 |
 | **Schade © (×2)** | MID | 7.2 | 20 |
-| Pickford | GKP | 6.2 | 6 |
-| Tarkowski | DEF | 6.0 | 8 |
-| Mykolenko | DEF | 5.4 | 6 |
-| Wirtz | MID | 6.5 | 10 |
-| Dorgu | DEF | 5.4 | 17 |
-| Ekitiké | FWD | 6.5 | 5 |
-| Calvert-Lewin | FWD | 6.5 | 8 |
-| **Total** | | **68.5** | **95** |
+| Pickford | GKP | 5.7 | 6 |
+| Andersen | DEF | 4.6 | 5 |
+| Foden | MID | 4.2 | 2 |
+| Anderson | MID | 4.6 | 3 |
+| Bowen | FWD | 4.9 | 2 |
+| Ekitiké (vc) | FWD | 6.5 | 5 |
+| **Total** | | **57.2** | **59** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Dúbravka | GKP | 5.4 | 11 |
-| João Pedro | FWD | 5.3 | 8 |
-| Heaven | DEF | 5.1 | 8 |
-| Hall | DEF | 5.0 | 2 |
+| Verbruggen | GKP | 2.5 | 1 |
+| Thiago ↑ | FWD | 4.0 | 5 |
+| Truffert | DEF | 4.0 | 1 |
+| Mukiele | DEF | 3.8 | 4 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| 17 | — | 73.7 | 98 | 66 | +32 | +438 |
-| **18** | **FH** | **75.6** | **115** | **44** | **+71** | **+509** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| 17 | — | 69.4 | 82 | 66 | +16 | +339 |
+| **18** | **—** | **64.4** | **84** | **44** | **+40** | **+379** |
+|---|---|---|---|---|---|---|
+| **Total** | | **1196.6** | **1299** | **920** | **+379** | |

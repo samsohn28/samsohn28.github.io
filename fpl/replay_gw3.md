@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 60 &nbsp;·&nbsp; **FPL avg**: 48 &nbsp;·&nbsp; **vs avg**: +12 &nbsp;·&nbsp; **Cumulative**: +47 &nbsp;·&nbsp; **Predicted**: 73.0 xPts &nbsp;·&nbsp; **Chip**: WC &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £0.6m &nbsp;·&nbsp; **FT**: 1
+**Points**: 60 &nbsp;·&nbsp; **FPL avg**: 48 &nbsp;·&nbsp; **vs avg**: +12 &nbsp;·&nbsp; **Cumulative**: +46 &nbsp;·&nbsp; **Predicted**: 72.8 xPts &nbsp;·&nbsp; **Chip**: WC &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £0.3m &nbsp;·&nbsp; **FT**: 1
 
-The Wildcard delivered a squad overhaul that predicted 73 points but returned only 60, with widespread underperformance from new signings — Aina, Pickford, Calafiori, and Anderson combined for just 6 points against a projected 22.2. Bruno Fernandes justified his captaincy with a 10-point return broadly in line with his 7.1 xPts, providing the week's backbone alongside Haaland and Virgil. The week's sharpest misfortune was structural: Senesi, the bench's highest xPts pick, erupted for 14 points from the substitutes' bench while the starting XI largely misfired, costing roughly 8–9 points of bench leakage on an otherwise strong chip week.
+The wildcard delivered a +12 above average haul of 60, though the model's 72.8 xPts projection proved optimistic as several freshly-acquired starters badly underperformed — Aina (1), Pickford (1), Calafiori (2), and Semenyo (2) all flatlined against expectations in the 5–7 xPts range. The captain call on Fernandes paid off cleanly with a 10-point return doubling to 20, while Haaland and João Pedro provided solid anchorage at 9 each. The sharpest misfire was structural: Senesi, one of the WC's own transfers, delivered the squad's best individual score of 14 from the bench while Tarkowski occupied his XI slot for 3.
 
 </div>
 
@@ -21,30 +21,32 @@ The Wildcard delivered a squad overhaul that predicted 73 points but returned on
 |---|---|---|---|---|---|
 | <span class="fpl-in">IN</span> | Calafiori | DEF | £5.6m | 5.6 | 2 |
 | <span class="fpl-in">IN</span> | Senesi | DEF | £4.5m | 5.2 | 14 |
-| <span class="fpl-in">IN</span> | Thiago | FWD | £6.0m | 4.9 | 6 |
+| <span class="fpl-in">IN</span> | Semenyo | MID | £7.3m | 6.5 | 2 |
+| <span class="fpl-in">IN</span> | Tavernier | MID | £5.5m | 5.7 | 3 |
 | <span class="fpl-in">IN</span> | Trafford | GKP | £5.0m | 4.6 | 2 |
-| <span class="fpl-in">IN</span> | Anthony | MID | £5.5m | 5.3 | 6 |
 | <span class="fpl-in">IN</span> | Neto | MID | £7.0m | 5.5 | 3 |
 | <span class="fpl-in">IN</span> | João Pedro | FWD | £7.6m | 7.0 | 9 |
-| <span class="fpl-in">IN</span> | Pickford | GKP | £5.5m | 5.4 | 1 |
+| <span class="fpl-in">IN</span> | Pickford | GKP | £5.5m | 4.9 | 1 |
 | <span class="fpl-in">IN</span> | Tarkowski | DEF | £5.5m | 5.4 | 3 |
 | <span class="fpl-in">IN</span> | Virgil | DEF | £6.0m | 6.3 | 8 |
+| <span class="fpl-in">IN</span> | Haaland | FWD | £14.1m | 6.0 | 9 |
 | <span class="fpl-in">IN</span> | B.Fernandes | MID | £9.0m | 7.1 | 10 |
 | <span class="fpl-in">IN</span> | Aina | DEF | £5.0m | 5.5 | 1 |
 | <span class="fpl-in">IN</span> | Anderson | MID | £5.5m | 5.8 | 2 |
-| <span class="fpl-out">OUT</span> | Raya | GKP | £5.5m | — | — |
-| <span class="fpl-out">OUT</span> | Zinchenko | DEF | £4.9m | — | — |
-| <span class="fpl-out">OUT</span> | Cash | DEF | £4.5m | — | — |
-| <span class="fpl-out">OUT</span> | Walker | DEF | £4.5m | — | — |
-| <span class="fpl-out">OUT</span> | Sánchez | GKP | £5.0m | — | — |
-| <span class="fpl-out">OUT</span> | Wirtz | MID | £8.4m | — | — |
-| <span class="fpl-out">OUT</span> | Gakpo | MID | £7.6m | — | — |
-| <span class="fpl-out">OUT</span> | Tonali | MID | £5.4m | — | — |
+| <span class="fpl-out">OUT</span> | Kelleher | GKP | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Banel | MID | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Henderson | GKP | £5.0m | — | — |
+| <span class="fpl-out">OUT</span> | Reed | MID | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Bogle | DEF | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Robertson | DEF | £5.9m | — | — |
+| <span class="fpl-out">OUT</span> | Reijnders | MID | £5.7m | — | — |
+| <span class="fpl-out">OUT</span> | Dalot | DEF | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Hall | DEF | £5.5m | — | — |
+| <span class="fpl-out">OUT</span> | L.Miley | MID | £4.5m | — | — |
 | <span class="fpl-out">OUT</span> | Ballard | DEF | £4.6m | — | — |
-| <span class="fpl-out">OUT</span> | Cirkin | DEF | £4.0m | — | — |
-| <span class="fpl-out">OUT</span> | Johnson | MID | £7.1m | — | — |
-| <span class="fpl-out">OUT</span> | Bowen | FWD | £7.8m | — | — |
+| <span class="fpl-out">OUT</span> | Kudus | MID | £6.6m | — | — |
 | <span class="fpl-out">OUT</span> | Ekitiké | FWD | £8.7m | — | — |
+| <span class="fpl-out">OUT</span> | Gyökeres | FWD | £9.0m | — | — |
 
 ## Starting XI
 
@@ -52,30 +54,30 @@ The Wildcard delivered a squad overhaul that predicted 73 points but returned on
 |---|---|---|---|
 | Calafiori | DEF | 5.6 | 2 |
 | Semenyo | MID | 6.5 | 2 |
+| Tavernier | MID | 5.7 | 3 |
 | Neto | MID | 5.5 | 3 |
 | João Pedro (vc) | FWD | 7.0 | 9 |
-| Pickford | GKP | 5.4 | 1 |
-| Tarkowski | DEF | 5.4 | 3 |
+| Pickford | GKP | 4.9 | 1 |
 | Virgil | DEF | 6.3 | 8 |
 | Haaland | FWD | 6.0 | 9 |
 | **B.Fernandes © (×2)** | MID | 7.1 | 10 |
 | Aina | DEF | 5.5 | 1 |
 | Anderson | MID | 5.8 | 2 |
-| **Total** | | **65.9** | **50** |
+| **Total** | | **65.7** | **50** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
 | Trafford | GKP | 4.6 | 2 |
-| Anthony | MID | 5.3 | 6 |
+| Tarkowski | DEF | 5.4 | 3 |
 | Senesi | DEF | 5.2 | 14 |
-| Thiago | FWD | 4.9 | 6 |
+| Richarlison | FWD | 5.0 | 2 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| **3** | **WC** | **73.0** | **60** | **48** | **+12** | **+47** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| **3** | **WC** | **72.8** | **60** | **48** | **+12** | **+46** |

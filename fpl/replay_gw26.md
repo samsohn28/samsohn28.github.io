@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 71 &nbsp;·&nbsp; **FPL avg**: 58 &nbsp;·&nbsp; **vs avg**: +13 &nbsp;·&nbsp; **Cumulative**: +675 &nbsp;·&nbsp; **Predicted**: 98.8 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 1 &nbsp;·&nbsp; **Bank**: £8.3m &nbsp;·&nbsp; **FT**: 1
+**Points**: 85 &nbsp;·&nbsp; **FPL avg**: 58 &nbsp;·&nbsp; **vs avg**: +27 &nbsp;·&nbsp; **Cumulative**: +595 &nbsp;·&nbsp; **Predicted**: 109.2 xPts &nbsp;·&nbsp; **Chip**: WC &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £7.2m &nbsp;·&nbsp; **FT**: 1
 
-The model predicted 98.8 xPts against a 71-point return, with the gap driven largely by the two transfer targets flopping — Timber and Mané combined for just 7 points against a combined xPts of 21.0, and the hit cost an additional 4. Captain Rice was the standout, returning 14 points in line with his 14.8 xPts projection, while Semenyo's 14-point haul against a 4.6 xPts estimate was the week's biggest positive surprise. The bench was quietly costly: Donnarumma scored 7 while starting keeper Dúbravka returned 1, though the 71-point total still cleared the FPL average by 13, extending the cumulative lead to +675.
+The Wildcard delivered a solid +27 over the average despite the model's 109.2 xPts projection falling well short at 85 actual, with the gap driven largely by a cluster of defensive and midfield underperformers — Gabriel, J.Timber, Wirtz, B.Fernandes, and Mané combined for just 19 points against a projected 49.6. Rice justified his captaincy almost exactly as predicted (14 vs 14.8 xPts), and José Sá was the standout overperformer at 13 points against a 7.5 projection, largely offsetting the João Pedro upgrade that also beat its model (10 vs 5.5). The chip paid off in context — 85 points on a WC gameweek clears a high bar — but the wholesale defensive restructure left significant xPts on the table through variance rather than model error.
 
 </div>
 
@@ -20,11 +20,23 @@ The model predicted 98.8 xPts against a 71-point return, with the gap driven lar
 | | Player | Pos | Cost | xPts | Actual |
 |---|---|---|---|---|---|
 | <span class="fpl-in">IN</span> | J.Timber | DEF | £6.4m | 9.3 | 3 |
-| <span class="fpl-in">IN</span> | Mané | FWD | £4.6m | 11.7 | 4 |
-| <span class="fpl-out">OUT</span> | Watkins | FWD | £8.7m | — | — |
-| <span class="fpl-out">OUT</span> | Chalobah | DEF | £5.8m | — | — |
-
-*1 hit(s) taken (-4 pts)*
+| <span class="fpl-in">IN</span> | João Pedro | FWD | £7.6m | 5.5 | 10 |
+| <span class="fpl-in">IN</span> | A.Becker | GKP | £5.4m | 4.4 | 7 |
+| <span class="fpl-in">IN</span> | Wirtz | MID | £8.4m | 5.9 | 3 |
+| <span class="fpl-in">IN</span> | B.Fernandes | MID | £9.8m | 5.5 | 2 |
+| <span class="fpl-in">IN</span> | José Sá | GKP | £4.2m | 7.5 | 13 |
+| <span class="fpl-in">IN</span> | H.Bueno | DEF | £4.3m | 8.4 | 8 |
+| <span class="fpl-in">IN</span> | Alderete | DEF | £4.1m | 5.4 | 2 |
+| <span class="fpl-in">IN</span> | Mané | FWD | £4.6m | 11.2 | 4 |
+| <span class="fpl-out">OUT</span> | Semenyo | MID | £7.9m | — | — |
+| <span class="fpl-out">OUT</span> | Verbruggen | GKP | £4.5m | — | — |
+| <span class="fpl-out">OUT</span> | Neto | MID | £7.0m | — | — |
+| <span class="fpl-out">OUT</span> | Pickford | GKP | £5.6m | — | — |
+| <span class="fpl-out">OUT</span> | Andersen | DEF | £4.6m | — | — |
+| <span class="fpl-out">OUT</span> | Bowen | FWD | £7.7m | — | — |
+| <span class="fpl-out">OUT</span> | Šeško | FWD | £7.2m | — | — |
+| <span class="fpl-out">OUT</span> | Thiaw | DEF | £5.1m | — | — |
+| <span class="fpl-out">OUT</span> | Mukiele | DEF | £4.6m | — | — |
 
 ## Starting XI
 
@@ -34,51 +46,53 @@ The model predicted 98.8 xPts against a 71-point return, with the gap driven lar
 | J.Timber | DEF | 9.3 | 3 |
 | **Rice © (×2)** | MID | 14.8 | 14 |
 | Rogers | MID | 5.6 | 2 |
-| Semenyo | MID | 4.6 | 14 |
-| Thiago | FWD | 5.5 | 2 |
-| Enzo | MID | 5.0 | 2 |
-| Guéhi | DEF | 4.5 | 7 |
-| Dúbravka | GKP | 3.7 | 1 |
-| Bowen | FWD | 5.2 | 5 |
-| Mané | FWD | 11.7 | 4 |
-| **Total** | | **84.0** | **61** |
+| João Pedro | FWD | 5.5 | 10 |
+| Wirtz | MID | 5.9 | 3 |
+| B.Fernandes | MID | 5.5 | 2 |
+| Anderson | MID | 6.5 | 5 |
+| José Sá | GKP | 7.5 | 13 |
+| H.Bueno | DEF | 8.4 | 8 |
+| Mané | FWD | 11.2 | 4 |
+| **Total** | | **94.5** | **71** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Donnarumma | GKP | 3.4 | 7 |
-| Senesi | DEF | 4.4 | 2 |
-| Garner | MID | 4.3 | 2 |
-| Tarkowski | DEF | 4.0 | 1 |
+| A.Becker | GKP | 4.4 | 7 |
+| Thiago | FWD | 5.5 | 2 |
+| Alderete | DEF | 5.4 | 2 |
+| Ballard | DEF | 4.7 | 4 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| 17 | — | 73.7 | 98 | 66 | +32 | +438 |
-| 18 | FH | 75.6 | 115 | 44 | +71 | +509 |
-| 19 | — | 63.9 | 86 | 40 | +46 | +555 |
-| 20 | — | 72.0 | 105 | 42 | +63 | +618 |
-| 21 | — | 78.9 | 83 | 48 | +35 | +653 |
-| 22 | — | 61.5 | 54 | 40 | +14 | +667 |
-| 23 | WC | 68.3 | 60 | 44 | +16 | +683 |
-| 24 | — | 61.9 | 42 | 55 | -13 | +670 |
-| 25 | — | 67.5 | 50 | 58 | -8 | +662 |
-| **26** | **—** | **98.8** | **71** | **58** | **+13** | **+675** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| 17 | — | 69.4 | 82 | 66 | +16 | +339 |
+| 18 | — | 64.4 | 84 | 44 | +40 | +379 |
+| 19 | — | 64.6 | 87 | 40 | +47 | +426 |
+| 20 | — | 77.6 | 122 | 42 | +80 | +506 |
+| 21 | — | 80.1 | 87 | 48 | +39 | +545 |
+| 22 | — | 57.8 | 56 | 40 | +16 | +561 |
+| 23 | — | 64.7 | 58 | 44 | +14 | +575 |
+| 24 | — | 63.7 | 59 | 55 | +4 | +579 |
+| 25 | — | 63.4 | 47 | 58 | -11 | +568 |
+| **26** | **WC** | **109.2** | **85** | **58** | **+27** | **+595** |
+|---|---|---|---|---|---|---|
+| **Total** | | **1777.8** | **1900** | **1305** | **+595** | |

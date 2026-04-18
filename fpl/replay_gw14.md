@@ -9,62 +9,59 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 99 &nbsp;·&nbsp; **FPL avg**: 58 &nbsp;·&nbsp; **vs avg**: +41 &nbsp;·&nbsp; **Cumulative**: +345 &nbsp;·&nbsp; **Predicted**: 75.2 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.5m &nbsp;·&nbsp; **FT**: 2
+**Points**: 45 &nbsp;·&nbsp; **FPL avg**: 58 &nbsp;·&nbsp; **vs avg**: -13 &nbsp;·&nbsp; **Cumulative**: +258 &nbsp;·&nbsp; **Predicted**: 63.8 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £7.1m &nbsp;·&nbsp; **FT**: 1
 
-The model's 75.2 xPts projection fell well short of the 99 actually scored, with the gap driven almost entirely by the defensive line — Van Hecke and Muñoz combined for 26 points against a combined xPts of 10.5, the kind of clean-sheet variance that sits outside the model's structural ceiling. Haaland delivered reliably at 14 against an 8.6 xPts, but the standout was the Gibbs-White to Foden swap, which returned 17 points on a 7.5 projection and functioned as the week's decisive move; the Dewsbury-Hall transfer, by contrast, was a wash at 3 against 5.3 xPts. The midfield core of Rice, B.Fernandes, and Anderson collectively blanked at 9 points on 20.5 xPts, meaning the week's margin came almost entirely from positional and transfer luck rather than model accuracy.
+The model badly overestimated this week, projecting 63.8 xPts against a return of just 45, with the miss concentrated at the top of the squad: Fernandes delivered only 4 points as captain and Anderson just 2 as vice, combining for roughly 14 points below expectation in those two slots alone. Pickford (7) and Calafiori (7) both doubled their xPts and softened the blow, but a clean failure from the three highest-projected midfielders — Rice, Anderson, and the captained Fernandes — dragged the week 13 below the FPL average. No transfers were made and no chip deployed, so this was a straightforward model miss with no mitigating decisions to unpick.
 
 </div>
 
 ## Transfers
 
-| | Player | Pos | Cost | xPts | Actual |
-|---|---|---|---|---|---|
-| <span class="fpl-in">IN</span> | Dewsbury-Hall | MID | £4.9m | 5.3 | 3 |
-| <span class="fpl-in">IN</span> | Foden | MID | £8.1m | 7.5 | 17 |
-| <span class="fpl-out">OUT</span> | Anthony | MID | £5.5m | — | — |
-| <span class="fpl-out">OUT</span> | Gibbs-White | MID | £7.3m | — | — |
+*(No transfers this week.)*
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
 | Calafiori | DEF | 4.2 | 7 |
+| Saka | MID | 5.0 | 6 |
 | Rice | MID | 6.3 | 3 |
-| Van Hecke | DEF | 4.1 | 12 |
-| Dewsbury-Hall | MID | 5.3 | 3 |
-| Muñoz | DEF | 6.4 | 14 |
+| Truffert | DEF | 4.2 | 4 |
+| Tavernier | MID | 4.9 | 1 |
 | Mateta | FWD | 4.8 | 2 |
-| Pickford | GKP | 5.1 | 7 |
-| Foden (vc) | MID | 7.5 | 17 |
-| **Haaland © (×2)** | FWD | 8.6 | 14 |
-| B.Fernandes | MID | 7.2 | 4 |
-| Anderson | MID | 7.0 | 2 |
-| **Total** | | **66.5** | **85** |
+| Pickford | GKP | 4.6 | 7 |
+| **B.Fernandes © (×2)** | MID | 7.2 | 4 |
+| Anderson (vc) | MID | 7.0 | 2 |
+| Bowen | FWD | 4.6 | 5 |
+| Mukiele | DEF | 3.7 | 0 |
+| **Total** | | **56.6** | **41** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Petrović | GKP | 3.6 | 2 |
+| Pope | GKP | 1.3 | 0 |
 | Thiago | FWD | 4.0 | 1 |
-| Mukiele | DEF | 3.7 | 0 |
 | Andersen | DEF | 3.1 | 0 |
+| Senesi | DEF | 2.1 | 0 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| **14** | **—** | **75.2** | **99** | **58** | **+41** | **+345** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| **14** | **—** | **63.8** | **45** | **58** | **-13** | **+258** |
+|---|---|---|---|---|---|---|
+| **Total** | | **923.0** | **959** | **701** | **+258** | |

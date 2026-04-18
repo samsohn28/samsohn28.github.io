@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 45 &nbsp;·&nbsp; **FPL avg**: 38 &nbsp;·&nbsp; **vs avg**: +7 &nbsp;·&nbsp; **Cumulative**: +706 &nbsp;·&nbsp; **Predicted**: 61.1 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £10.8m &nbsp;·&nbsp; **FT**: 2
+**Points**: 33 &nbsp;·&nbsp; **FPL avg**: 38 &nbsp;·&nbsp; **vs avg**: -5 &nbsp;·&nbsp; **Cumulative**: +631 &nbsp;·&nbsp; **Predicted**: 63.0 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 1 &nbsp;·&nbsp; **Bank**: £6.8m &nbsp;·&nbsp; **FT**: 1
 
-The model overestimated badly this week, projecting 61.1 xPts against an actual 45 — a gap driven largely by the captain pick, as Enzo returned just 2 points on a 5.9 xPts expectation, costing meaningful ground through the double. The Wilson transfer paid off (9 actual vs 5.7 xPts), but the Thiaw swap proved the mirror image — 0 points against the same 5.7 projection, with both transfers roughly cancelling out. The week was ultimately salvaged by outperforming the average by 7, with Pickford, Tarkowski, and Garner the reliable contributors, but the captaincy miscall was the defining drag on what could have been a strong haul.
+The model projected 63.0 xPts but the squad returned just 33, a 30-point shortfall driven by a string of blanks from players the model rated highly — Becker (0), Ballard (0), and Alderete (1) all badly underdelivered against xPts in the 4.7–5.6 range. The captain pick compounded the damage: Enzo returned just 2 points on a 5.9 xPts projection, and the hit taken to bring him in (replacing Semenyo) cost a net 6 points given he matched his cheaper predecessor's output. The week's standout, Bruno Fernandes at 13 points against an xPts of 4.1, was in the XI but uncaptained — a brutal illustration of how the model's variance blind spot on high-ceiling midfielders can flip a red week into a disaster.
 
 </div>
 
@@ -19,69 +19,73 @@ The model overestimated badly this week, projecting 61.1 xPts against an actual 
 
 | | Player | Pos | Cost | xPts | Actual |
 |---|---|---|---|---|---|
-| <span class="fpl-in">IN</span> | Wilson | MID | £6.0m | 5.7 | 9 |
-| <span class="fpl-in">IN</span> | Thiaw | DEF | £5.1m | 5.7 | 0 |
-| <span class="fpl-out">OUT</span> | Gabriel | DEF | £7.1m | — | — |
-| <span class="fpl-out">OUT</span> | Semenyo | MID | £8.2m | — | — |
+| <span class="fpl-in">IN</span> | Enzo | MID | £6.6m | 5.9 | 2 |
+| <span class="fpl-in">IN</span> | Calvert-Lewin | FWD | £5.6m | 5.8 | 2 |
+| <span class="fpl-out">OUT</span> | Semenyo | MID | £8.3m | — | — |
+| <span class="fpl-out">OUT</span> | Mané | FWD | £4.5m | — | — |
+
+*1 hit(s) taken (-4 pts)*
 
 ## Starting XI
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Senesi | DEF | 4.0 | 1 |
 | Thiago | FWD | 5.7 | 4 |
 | **Enzo © (×2)** | MID | 5.9 | 2 |
-| Pickford | GKP | 5.2 | 7 |
-| Tarkowski | DEF | 3.9 | 6 |
-| Garner | MID | 4.4 | 6 |
-| Wilson | MID | 5.7 | 9 |
+| A.Becker | GKP | 4.7 | 0 |
 | Virgil | DEF | 5.0 | 3 |
-| Szoboszlai | MID | 5.1 | 3 |
+| Szoboszlai | MID | 4.6 | 3 |
+| B.Fernandes | MID | 4.1 | 13 |
+| Anderson | MID | 5.5 | 5 |
+| Ballard | DEF | 5.5 | 0 |
 | Bowen | FWD | 4.7 | 2 |
-| Thiaw (vc) | DEF | 5.7 | 0 |
-| **Total** | | **55.1** | **43** |
+| Alderete | DEF | 5.6 | 1 |
+| Calvert-Lewin (vc) | FWD | 5.8 | 2 |
+| **Total** | | **57.1** | **35** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Donnarumma | GKP | 0.0 | 0 |
+| José Sá | GKP | 0.0 | 0 |
+| Gabriel | DEF | 0.0 | 0 |
+| J.Timber | DEF | 0.0 | 0 |
 | Rice | MID | 0.0 | 0 |
-| Guéhi | DEF | 0.0 | 0 |
-| Mané | FWD | 0.0 | 0 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| 4 | BB | 66.1 | 98 | 63 | +35 | +82 |
-| 5 | — | 60.4 | 74 | 42 | +32 | +114 |
-| 6 | — | 67.5 | 53 | 46 | +7 | +121 |
-| 7 | — | 69.7 | 75 | 60 | +15 | +136 |
-| 8 | — | 65.8 | 105 | 56 | +49 | +185 |
-| 9 | — | 65.6 | 52 | 46 | +6 | +191 |
-| 10 | — | 68.0 | 85 | 65 | +20 | +211 |
-| 11 | — | 61.6 | 68 | 38 | +30 | +241 |
-| 12 | — | 60.8 | 74 | 39 | +35 | +276 |
-| 13 | — | 62.7 | 63 | 35 | +28 | +304 |
-| 14 | — | 75.2 | 99 | 58 | +41 | +345 |
-| 15 | — | 71.9 | 91 | 49 | +42 | +387 |
-| 16 | — | 71.5 | 79 | 60 | +19 | +406 |
-| 17 | — | 73.7 | 98 | 66 | +32 | +438 |
-| 18 | FH | 75.6 | 115 | 44 | +71 | +509 |
-| 19 | — | 63.9 | 86 | 40 | +46 | +555 |
-| 20 | — | 72.0 | 105 | 42 | +63 | +618 |
-| 21 | — | 78.9 | 83 | 48 | +35 | +653 |
-| 22 | — | 61.5 | 54 | 40 | +14 | +667 |
-| 23 | WC | 68.3 | 60 | 44 | +16 | +683 |
-| 24 | — | 61.9 | 42 | 55 | -13 | +670 |
-| 25 | — | 67.5 | 50 | 58 | -8 | +662 |
-| 26 | — | 98.8 | 71 | 58 | +13 | +675 |
-| 27 | — | 70.3 | 36 | 45 | -9 | +666 |
-| 28 | — | 65.2 | 63 | 53 | +10 | +676 |
-| 29 | — | 70.2 | 63 | 54 | +9 | +685 |
-| 30 | — | 55.2 | 57 | 43 | +14 | +699 |
-| **31** | **—** | **61.1** | **45** | **38** | **+7** | **+706** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| 4 | BB | 66.5 | 97 | 63 | +34 | +80 |
+| 5 | — | 60.0 | 70 | 42 | +28 | +108 |
+| 6 | — | 68.1 | 49 | 46 | +3 | +111 |
+| 7 | TC | 70.2 | 92 | 60 | +32 | +143 |
+| 8 | — | 66.2 | 103 | 56 | +47 | +190 |
+| 9 | — | 65.2 | 51 | 46 | +5 | +195 |
+| 10 | — | 63.8 | 75 | 65 | +10 | +205 |
+| 11 | — | 59.9 | 53 | 38 | +15 | +220 |
+| 12 | — | 64.6 | 58 | 39 | +19 | +239 |
+| 13 | — | 64.2 | 67 | 35 | +32 | +271 |
+| 14 | — | 63.8 | 45 | 58 | -13 | +258 |
+| 15 | — | 68.9 | 94 | 49 | +45 | +303 |
+| 16 | — | 71.0 | 80 | 60 | +20 | +323 |
+| 17 | — | 69.4 | 82 | 66 | +16 | +339 |
+| 18 | — | 64.4 | 84 | 44 | +40 | +379 |
+| 19 | — | 64.6 | 87 | 40 | +47 | +426 |
+| 20 | — | 77.6 | 122 | 42 | +80 | +506 |
+| 21 | — | 80.1 | 87 | 48 | +39 | +545 |
+| 22 | — | 57.8 | 56 | 40 | +16 | +561 |
+| 23 | — | 64.7 | 58 | 44 | +14 | +575 |
+| 24 | — | 63.7 | 59 | 55 | +4 | +579 |
+| 25 | — | 63.4 | 47 | 58 | -11 | +568 |
+| 26 | WC | 109.2 | 85 | 58 | +27 | +595 |
+| 27 | — | 73.6 | 50 | 45 | +5 | +600 |
+| 28 | — | 66.2 | 64 | 53 | +11 | +611 |
+| 29 | — | 64.5 | 65 | 54 | +11 | +622 |
+| 30 | — | 55.5 | 57 | 43 | +14 | +636 |
+| **31** | **—** | **63.0** | **33** | **38** | **-5** | **+631** |
+|---|---|---|---|---|---|---|
+| **Total** | | **2100.6** | **2169** | **1538** | **+631** | |

@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 98 &nbsp;·&nbsp; **FPL avg**: 63 &nbsp;·&nbsp; **vs avg**: +35 &nbsp;·&nbsp; **Cumulative**: +82 &nbsp;·&nbsp; **Predicted**: 66.1 xPts &nbsp;·&nbsp; **Chip**: BB &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £1.1m &nbsp;·&nbsp; **FT**: 1
+**Points**: 97 &nbsp;·&nbsp; **FPL avg**: 63 &nbsp;·&nbsp; **vs avg**: +34 &nbsp;·&nbsp; **Cumulative**: +80 &nbsp;·&nbsp; **Predicted**: 66.5 xPts &nbsp;·&nbsp; **Chip**: BB &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £0.8m &nbsp;·&nbsp; **FT**: 1
 
-The Bench Boost delivered well above the model's 66.1 projection, with actual returns of 98 driven largely by captain Semenyo (13 pts, doubled) and Haaland matching him as vice — two players the model had at identical 6.5 xPts but who both outperformed. The transfer to Andersen paid off cleanly at 10 vs his 5.8 xPts, while Tarkowski's 8 from the bench would have been dead weight without the chip. B.Fernandes was the main drag, returning just 2 against a 5.5 projection, but the week's upside — particularly the dual 13-point hauls at the top — more than absorbed it, landing +35 above the GW average and extending the cumulative buffer to +82.
+The Bench Boost delivered exactly what it promised, with all four bench players contributing 17 points — headlined by Tarkowski's 8 — and pushing the total to 97 against a model projection of 66.5, a 46% overperformance driven largely by points the model couldn't anticipate from the bench. Semenyo justified the captaincy with a 13-point haul (26 doubled), while Haaland matched him exactly as vice, giving the squad two reliable double-digit scorers at the top. The Aina-to-Andersen transfer paid off cleanly with 10 actual against a 5.8 xPts projection, though Trafford's blank (0 vs 4.1 xPts) was the chip's one soft spot, effectively reducing the active XI to ten outfield players before Pickford's auto-sub.
 
 </div>
 
@@ -29,30 +29,30 @@ The Bench Boost delivered well above the model's 66.1 projection, with actual re
 | Calafiori | DEF | 5.5 | 5 |
 | Senesi | DEF | 5.1 | 3 |
 | **Semenyo © (×2)** | MID | 6.5 | 13 |
-| Anthony | MID | 4.7 | 3 |
+| Tavernier | MID | 5.2 | 2 |
+| Trafford | GKP | 4.1 | 0 |
 | João Pedro | FWD | 6.1 | 7 |
-| Pickford | GKP | 4.3 | 6 |
 | Andersen | DEF | 5.8 | 10 |
 | Virgil | DEF | 4.8 | 8 |
 | Haaland (vc) | FWD | 6.5 | 13 |
 | B.Fernandes | MID | 5.5 | 2 |
 | Anderson | MID | 4.7 | 4 |
-| **Total** | | **59.6** | **74** |
+| **Total** | | **59.9** | **67** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Trafford | GKP | 4.1 | 0 |
+| Pickford ↑ | GKP | 3.8 | 6 |
 | Tarkowski | DEF | 4.5 | 8 |
-| Thiago | FWD | 4.0 | 1 |
+| Richarlison | FWD | 4.0 | 1 |
 | Neto | MID | 4.0 | 2 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| 1 | — | 53.6 | 73 | 54 | +19 | +19 |
-| 2 | TC | 65.5 | 67 | 51 | +16 | +35 |
-| 3 | WC | 73.0 | 60 | 48 | +12 | +47 |
-| **4** | **BB** | **66.1** | **98** | **63** | **+35** | **+82** |
+| 1 | — | 57.3 | 82 | 54 | +28 | +28 |
+| 2 | FH | 80.5 | 57 | 51 | +6 | +34 |
+| 3 | WC | 72.8 | 60 | 48 | +12 | +46 |
+| **4** | **BB** | **66.5** | **97** | **63** | **+34** | **+80** |

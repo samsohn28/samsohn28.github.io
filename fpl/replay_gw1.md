@@ -9,9 +9,9 @@ date: 2026-04-14
 
 <div class="fpl-summary" markdown="1">
 
-**Points**: 73 &nbsp;·&nbsp; **FPL avg**: 54 &nbsp;·&nbsp; **vs avg**: +19 &nbsp;·&nbsp; **Cumulative**: +19 &nbsp;·&nbsp; **Predicted**: 53.6 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.5m &nbsp;·&nbsp; **FT**: 1
+**Points**: 82 &nbsp;·&nbsp; **FPL avg**: 54 &nbsp;·&nbsp; **vs avg**: +28 &nbsp;·&nbsp; **Cumulative**: +28 &nbsp;·&nbsp; **Predicted**: 57.3 xPts &nbsp;·&nbsp; **Chip**: — &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £16.0m &nbsp;·&nbsp; **FT**: 0
 
-The model predicted 53.6 points and the team delivered 73, a +19.4 beat driven primarily by Ballard (xPts 4.9, actual 17) and Haaland (xPts 3.0, actual 13) — two players the model significantly underestimated. The captain pick was the main drag: Walker returned just 1 point against a predicted 4.9, costing roughly 8 points in captaincy value compared to expectation, and a Sánchez or Haaland armband would have been transformative. An auto-sub of Ekitiké (11 pts) partially offset Raya's 10 points stranded on the bench — the net bench outcome was roughly neutral, but starting Raya over Sánchez would have been the week's biggest individual error.
+The model predicted 57.3 points but the squad delivered 82, a 25-point beat driven by Ballard's 17-point haul and double-digit returns from Richarlison and Ekitiké — three players the model assigned near-identical mid-4s xPts, suggesting it correctly identified attacking upside but underestimated the variance in a season opener. Captain Henderson returned a modest 6 points, leaving significant value on the table given Ballard's explosive performance, though the captaincy call was defensible given pre-GW information. Auto-subs did real work — Reijnders and Kudus each hit 10 after covering for blankers Banel and Reed — while Gyökeres, a notable xPts pick at 4.5, disappointed with just 1 point.
 
 </div>
 
@@ -23,30 +23,30 @@ The model predicted 53.6 points and the team delivered 73, a +19.4 beat driven p
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Zinchenko | DEF | 4.8 | 0 |
-| Cash | DEF | 5.1 | 8 |
-| **Walker © (×2)** | DEF | 4.9 | 1 |
-| Sánchez (vc) | GKP | 5.6 | 8 |
-| Wirtz | MID | 4.0 | 2 |
-| Gakpo | MID | 4.6 | 7 |
-| Haaland | FWD | 3.0 | 13 |
-| Tonali | MID | 4.2 | 3 |
-| Longstaff | MID | 3.8 | 1 |
+| Banel | MID | 4.7 | 0 |
+| **Henderson © (×2)** | GKP | 5.2 | 6 |
+| Reed | MID | 3.5 | 0 |
+| Bogle | DEF | 4.9 | 6 |
+| Robertson | DEF | 5.0 | 0 |
+| Dalot | DEF | 5.0 | 1 |
+| Hall (vc) | DEF | 5.2 | 0 |
 | Ballard | DEF | 4.9 | 17 |
-| Tel | MID | 3.9 | 1 |
-| **Total** | | **48.7** | **61** |
+| Richarlison | FWD | 4.4 | 13 |
+| Ekitiké | FWD | 4.9 | 11 |
+| Gyökeres | FWD | 4.5 | 1 |
+| **Total** | | **52.0** | **55** |
 
 ## Bench
 
 | Player | Pos | xPts | Actual |
 |---|---|---|---|
-| Raya | GKP | 5.5 | 10 |
-| Cirkin | DEF | 3.8 | 0 |
-| Ekitiké ↑ | FWD | 2.9 | 11 |
-| Bowen | FWD | 2.8 | 2 |
+| Kelleher | GKP | 4.1 | 1 |
+| Reijnders ↑ | MID | 3.2 | 10 |
+| Kudus ↑ | MID | 3.1 | 10 |
+| L.Miley ↑ | MID | 3.1 | 1 |
 
 ## Season
 
 | GW | Chip | xPts | Actual | Avg | vs Avg | Cumulative |
 |---|---|---|---|---|---|---|
-| **1** | **—** | **53.6** | **73** | **54** | **+19** | **+19** |
+| **1** | **—** | **57.3** | **82** | **54** | **+28** | **+28** |
