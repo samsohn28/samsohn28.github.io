@@ -158,7 +158,7 @@ layout: default
   }
 </style>
 
-{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" | sort: "gameweek" | reverse %}
+{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" | where: "season", page.season | sort: "gameweek" | reverse %}
 
 <div class="fpl-shell">
   <nav class="fpl-nav">

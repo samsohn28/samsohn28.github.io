@@ -3,8 +3,11 @@ layout: default
 title: FPL
 ---
 
-{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" | sort: "gameweek" | reverse %}
-{% assign latest = fpl_pages | first %}
+{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" %}
+{% assign seasons = fpl_pages | map: "season" | uniq | sort %}
+{% assign latest_season = seasons | last %}
+{% assign season_pages = fpl_pages | where: "season", latest_season | sort: "gameweek" | reverse %}
+{% assign latest = season_pages | first %}
 {% if latest %}
   <meta http-equiv="refresh" content="0;url={{ latest.url }}">
 {% endif %}
