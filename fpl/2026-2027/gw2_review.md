@@ -2,6 +2,7 @@
 layout: fpl
 title: "GW2 Review"
 gameweek: 2
+season: "2026-2027"
 date: 2026-09-04
 ---
 
