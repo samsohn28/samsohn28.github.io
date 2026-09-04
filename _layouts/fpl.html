@@ -37,6 +37,7 @@ layout: default
     padding: 0;
   }
   .fpl-nav-list li { margin-bottom: 6px; }
+  .fpl-season-list { margin-bottom: 20px; }
   .fpl-nav-list a {
     font-size: 13px;
     color: #6b6b6b;
@@ -158,11 +159,24 @@ layout: default
   }
 </style>
 
-{% assign fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" | where: "season", page.season | sort: "gameweek" | reverse %}
+{% assign all_fpl_pages = site.pages | where_exp: "p", "p.layout == 'fpl'" %}
+{% assign fpl_pages = all_fpl_pages | where: "season", page.season | sort: "gameweek" | reverse %}
+{% assign seasons = all_fpl_pages | map: "season" | uniq | sort | reverse %}
 
 <div class="fpl-shell">
   <nav class="fpl-nav">
     <a class="fpl-nav-home" href="/">← Home</a>
+    {% if seasons.size > 1 %}
+    <div class="fpl-nav-label">Season</div>
+    <ul class="fpl-nav-list fpl-season-list">
+      {% for s in seasons %}
+      {% assign season_latest = all_fpl_pages | where: "season", s | sort: "gameweek" | reverse | first %}
+      <li>
+        <a href="{{ season_latest.url }}"{% if s == page.season %} class="fpl-nav-active"{% endif %}>{{ s }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
     <div class="fpl-nav-label">FPL</div>
     <ul class="fpl-nav-list">
       {% for p in fpl_pages %}
