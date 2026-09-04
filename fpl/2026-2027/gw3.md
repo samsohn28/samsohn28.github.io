@@ -10,9 +10,9 @@ date: 2026-09-04
 
 <div class="fpl-summary" markdown="1">
 
-**Predicted xPts**: 70.2 &nbsp;·&nbsp; **Chip**: Wildcard &nbsp;·&nbsp; **Hits**: 0 &nbsp;·&nbsp; **Bank**: £3.6m &nbsp;·&nbsp; **FT**: 1 &nbsp;·&nbsp; **Plan**: WC(3)→BB(4)→TC(6) &nbsp;·&nbsp; **Consensus**: 20/20 top strategies
+**Predicted xPts**: 66.2 &nbsp;·&nbsp; **Chip**: Triple Captain &nbsp;·&nbsp; **Hits**: 1 &nbsp;·&nbsp; **Bank**: £3.6m &nbsp;·&nbsp; **FT**: 1 &nbsp;·&nbsp; **Plan**: TC(3)→BB(4)→FH(5) &nbsp;·&nbsp; **Consensus**: top strategy (raw EV)
 
-The Wildcard is a full teardown — 14 moves converting premium assets (Isak, Palmer, Saka aside, Gvardiol) into a low-cost Hull/Brentford-heavy core, which is what frees the budget to spread 5.3–6.3 xPts across all eleven starters rather than concentrating it. Captaincy on Tzolakis is unusual and marginally off-optimal on raw xPts — Egan and Sangaré both project 6.3 to his 6.2 — so the pick is leaning on goalkeeper save-point floor and a favourable Hull fixture rather than ceiling. The WC(3)→BB(4)→TC(6) sequence is the real point: wildcard now builds a 15-deep squad with no dead bench for the Bench Boost next week, then holds the Triple Captain until GW6 when a genuine premium captain option is back in the side.
+Triple Captain fires on Egan at home to Hull, but at 6.3 xPts he's a thin ceiling for a chip — the DEF-heavy XI and a 66.2 xPts squad total suggest the chip is being spent on availability rather than a genuine haul candidate, and taking a -4 hit to fund Guéhi→Egan plus Cherki→Saka sharpens that concern. The two moves are defensible on their own (Saka adds Arsenal attacking return, Egan is the TC vehicle), but the hit means the chip needs roughly 10+ points from the captain slot just to break even against a free-transfer alternative. The wider plan — TC(3)→BB(4)→FH(5) — is burning first-half chips in a tight block to front-load points before the GW19 expiry, with the sim's 102.1 mean and 81.0–123.0 P10–P90 band showing the variance you'd expect from stacking chips this early.
 
 </div>
 
@@ -21,69 +21,47 @@ The Wildcard is a full teardown — 14 moves converting premium assets (Isak, Pa
 | | Player | Pos | xPts |
 |---|---|---|---|
 | <span class="fpl-in">IN</span> | Egan | DEF | 6.3 |
-| <span class="fpl-in">IN</span> | Henderson | GKP | 5.7 |
-| <span class="fpl-in">IN</span> | Tzolakis | GKP | 6.2 |
-| <span class="fpl-in">IN</span> | O'Shea | DEF | 5.9 |
-| <span class="fpl-in">IN</span> | Hall | DEF | 5.7 |
-| <span class="fpl-in">IN</span> | Evanilson | FWD | 5.3 |
-| <span class="fpl-in">IN</span> | N.Williams | DEF | 5.7 |
-| <span class="fpl-in">IN</span> | Lewis-Potter | MID | 6.0 |
 | <span class="fpl-in">IN</span> | Saka | MID | 5.5 |
-| <span class="fpl-in">IN</span> | McBurnie | FWD | 4.8 |
-| <span class="fpl-in">IN</span> | Janelt | MID | 5.4 |
-| <span class="fpl-in">IN</span> | Robinson | DEF | 5.7 |
-| <span class="fpl-in">IN</span> | Igor Jesus | FWD | 4.9 |
-| <span class="fpl-in">IN</span> | Gomez | MID | 5.4 |
-| <span class="fpl-out">OUT</span> | Petrović | — | — |
 | <span class="fpl-out">OUT</span> | Guéhi | — | — |
-| <span class="fpl-out">OUT</span> | Gvardiol | — | — |
-| <span class="fpl-out">OUT</span> | Calafiori | — | — |
-| <span class="fpl-out">OUT</span> | Szoboszlai | — | — |
 | <span class="fpl-out">OUT</span> | Cherki | — | — |
-| <span class="fpl-out">OUT</span> | Gakpo | — | — |
-| <span class="fpl-out">OUT</span> | Palmer | — | — |
-| <span class="fpl-out">OUT</span> | João Pedro | — | — |
-| <span class="fpl-out">OUT</span> | Thiago | — | — |
-| <span class="fpl-out">OUT</span> | Kinsky | — | — |
-| <span class="fpl-out">OUT</span> | Isak | — | — |
-| <span class="fpl-out">OUT</span> | De Cuyper | — | — |
-| <span class="fpl-out">OUT</span> | Kayode | — | — |
+
+*1 hit(s) taken (-4 pts)*
 
 ## Starting XI
 
 | Player | Pos | Team | xPts | xMin | Own% |
 |---|---|---|---|---|---|
-| **Tzolakis ©** | GKP | HUL | 6.2 | 72 | 8.0% |
-| Egan (vc) | DEF | HUL | 6.3 | 59 | 5.5% |
-| O'Shea | DEF | IPS | 5.9 | 40 | 3.2% |
-| N.Williams | DEF | NFO | 5.7 | 41 | 8.2% |
-| Robinson | DEF | FUL | 5.7 | 38 | 1.6% |
-| Hall | DEF | NEW | 5.7 | 58 | 10.0% |
-| M.Sangaré | MID | BRE | 6.3 | 52 | 15.0% |
-| Lewis-Potter | MID | BRE | 6.0 | 45 | 2.2% |
+| Kinsky | GKP | TOT | 5.1 | 51 | 19.1% |
+| **Egan ©** | DEF | HUL | 6.3 | 59 | 5.5% |
+| Kayode | DEF | BRE | 5.5 | 56 | 9.8% |
+| Calafiori | DEF | ARS | 5.4 | 55 | 44.4% |
+| Gvardiol | DEF | MCI | 5.4 | 59 | 18.9% |
+| De Cuyper | DEF | BHA | 5.0 | 56 | 17.7% |
+| M.Sangaré (vc) | MID | BRE | 6.3 | 52 | 15.0% |
 | Saka | MID | ARS | 5.5 | 50 | 10.9% |
-| Janelt | MID | BRE | 5.4 | 38 | 0.7% |
-| Evanilson | FWD | BOU | 5.3 | 44 | 3.2% |
-| **Total** | | | **64.0** | | |
+| Gakpo | MID | LIV | 4.4 | 56 | 8.7% |
+| Szoboszlai | MID | LIV | 4.2 | 42 | 41.3% |
+| Thiago | FWD | BRE | 4.3 | 38 | 14.1% |
+| **Total** | | | **57.6** | | |
 
 ## Bench
 
 | Slot | Player | Pos | Team | xPts |
 |---|---|---|---|---|
-| 0 | Henderson | GKP | CRY | 5.7 |
-| 1 | Gomez | MID | BHA | 5.4 |
-| 2 | Igor Jesus | FWD | NFO | 4.9 |
-| 3 | McBurnie | FWD | HUL | 4.8 |
+| 0 | Petrović | GKP | BOU | 4.8 |
+| 1 | João Pedro | FWD | CHE | 4.0 |
+| 2 | Palmer | MID | CHE | 3.7 |
+| 3 | Isak | FWD | LIV | 3.6 |
 
 ## Strategy Outlook
 
 | # | Strategy | Mean | P10 | P50 | P90 |
 |---|---|---|---|---|---|
-| 1 | Wildcard@GW3 → Bench Boost@GW4 → Triple Captain@GW6 | 106.98 | 86.0 | 106.0 | 130.1 |
-| 2 | Wildcard@GW3 → Bench Boost@GW4 → Triple Captain@GW6 | 105.95 | 84.0 | 106.0 | 128.0 |
-| 3 | Wildcard@GW3 → Bench Boost@GW4 → Triple Captain@GW5 | 105.79 | 86.0 | 105.0 | 128.0 |
-| 4 | Wildcard@GW3 → Bench Boost@GW4 → Triple Captain@GW6 | 105.39 | 84.0 | 105.0 | 128.0 |
-| 5 | Wildcard@GW3 → Bench Boost@GW4 → Triple Captain@GW6 | 104.95 | 85.0 | 104.0 | 127.0 |
+| 1 | Triple Captain@GW3 → Bench Boost@GW4 → Free Hit@GW5 | 102.1 | 81.0 | 102.0 | 123.0 |
+| 2 | Bench Boost@GW3 → Free Hit@GW4 → Triple Captain@GW5 | 102.01 | 81.0 | 100.5 | 125.0 |
+| 3 | Triple Captain@GW3 → Bench Boost@GW4 → Free Hit@GW5 | 106.22 | 86.0 | 105.0 | 128.0 |
+| 4 | Bench Boost@GW3 → Free Hit@GW4 → Triple Captain@GW5 | 106.92 | 85.0 | 106.0 | 130.0 |
+| 5 | Bench Boost@GW3 → Triple Captain@GW4 → Free Hit@GW5 | 101.73 | 81.0 | 101.0 | 124.0 |
 
 ## Season
 
